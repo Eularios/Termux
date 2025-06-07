@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/env bash
 set -e -u -o pipefail
 IFS=$'\n\t'
 
