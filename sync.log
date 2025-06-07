@@ -1,0 +1,139 @@
+ 2025-06-02 13:46:18 — Syncing files from /sdcard/termux_share to /data/data/com.termux/files/home/scripts...
+ 13:46:18 — Synced (hidden): .bashrc
+ 2025-06-02 13:46:18 — Sync completed.
+ 2025-06-02 13:49:34 — Syncing files from /sdcard/termux_share to /data/data/com.termux/files/home/scripts...
+ 13:49:34 — Synced: Leva_Termux.bat
+ 13:49:34 — Synced: Termux_Restore.md
+ 13:49:34 — Synced: adb_script.sh
+ 13:49:34 — Synced: batklwp_versioned_backup.sh
+ 13:49:34 — Synced: cmp_klwp.sh
+ 13:49:34 — Synced: commands.sh
+ 13:49:34 — Synced: echo_run_command.sh
+ 13:49:34 — Synced: sync_from_pc.sh
+ 13:49:34 — Synced: sync_from_pc_bak.sh
+ 13:49:34 — Synced: termux_backup.sh
+ 13:49:34 — Synced: termux_info_painel.sh
+ 13:49:34 — Synced: termux_restore.sh
+ 13:49:34 — Synced: termux_sync_onedrive.sh
+ 13:49:34 — Synced: wifi_usb.sh
+ 2025-06-02 13:52:59 — Syncing files from /sdcard/termux_share to /data/data/com.termux/files/home/scripts...
+✅ 13:52:59 Synced: Leva_Termux.bat
+✅ 13:52:59 Synced: Termux_Restore.md
+✅ 13:52:59 Synced: adb_script.sh
+✅ 13:52:59 Synced: batklwp_versioned_backup.sh
+✅ 13:52:59 Synced: cmp_klwp.sh
+✅ 13:52:59 Synced: commands.sh
+✅ 13:52:59 Synced: echo_run_command.sh
+✅ 13:52:59 Skipped: sync_from_pc.sh
+✅ 13:52:59 Synced: sync_from_pc_bak.sh
+✅ 13:52:59 Synced: termux_backup.sh
+✅ 13:52:59 Synced: termux_info_painel.sh
+✅ 13:52:59 Synced: termux_restore.sh
+✅ 13:52:59 Synced: termux_sync_onedrive.sh
+✅ 13:52:59 Synced: wifi_usb.sh
+✅ 13:52:59 — Synced (hidden): .bashrc
+ 2025-06-02 13:52:59 — Sync completed.
+ 2025-06-02 14:14:47 — Syncing files from /sdcard/termux_share to /data/data/com.termux/files/home/scripts...
+✅ 14:14:47 Synced: Leva_Termux.bat
+✅ 14:14:47 Synced: Termux_Restore.md
+✅ 14:14:47 Synced: adb_script.sh
+✅ 14:14:48 Synced: batklwp_versioned_backup.sh
+✅ 14:14:48 Synced: cmp_klwp.sh
+✅ 14:14:48 Synced: commands.sh
+✅ 14:14:48 Synced: echo_run_command.sh
+✅ 14:14:48 Skipped: sync_from_pc.sh
+✅ 14:14:48 Synced: sync_from_pc_bak.sh
+✅ 14:14:48 Synced: termux_backup.sh
+✅ 14:14:48 Synced: termux_info_painel.sh
+✅ 14:14:48 Synced: termux_restore.sh
+✅ 14:14:48 Synced: termux_sync_onedrive.sh
+✅ 14:14:48 Synced: wifi_usb.sh
+✅ 14:14:48 — Synced (hidden): .bashrc
+ 2025-06-02 14:14:48 — Sync completed.
+ 2025-06-02 14:18:57 — Syncing files from /sdcard/termux_share to /data/data/com.termux/files/home/scripts...
+✅ 14:18:57 Synced: Leva_Termux.bat
+✅ 14:18:57 Synced: Termux_Restore.md
+✅ 14:18:58 Synced: adb_script.sh
+✅ 14:18:58 Synced: batklwp_versioned_backup.sh
+✅ 14:18:58 Synced: cmp_klwp.sh
+✅ 14:18:58 Synced: commands.sh
+✅ 14:18:58 Synced: echo_run_command.sh
+✅ 14:18:58 Skipped: sync_from_pc.sh
+✅ 14:18:58 Synced: sync_from_pc_bak.sh
+✅ 14:18:58 Synced: termux_backup.sh
+✅ 14:18:58 Synced: termux_info_painel.sh
+✅ 14:18:58 Synced: termux_restore.sh
+✅ 14:18:58 Synced: termux_sync_onedrive.sh
+✅ 14:18:58 Synced: wifi_usb.sh
+✅ 14:18:58 — Synced (hidden): .bashrc
+ 2025-06-02 14:18:58 — Sync completed.
+ 2025-06-02 14:52:25 — Syncing files from /sdcard/termux_share to /data/data/com.termux/files/home/scripts...
+✅ 14:52:26 Synced: Leva_Termux.bat
+✅ 14:52:26 Synced: Termux_Restore.md
+✅ 14:52:26 Synced: adb_script.sh
+✅ 14:52:26 Synced: batklwp_versioned_backup.sh
+✅ 14:52:26 Synced: cmp_klwp.sh
+✅ 14:52:26 Synced: commands.sh
+✅ 14:52:26 Synced: echo_run_command.sh
+✅ 14:52:26 Skipped: sync_from_pc.sh
+✅ 14:52:26 Synced: sync_from_pc_bak.sh
+✅ 14:52:26 Synced: termux_backup.sh
+✅ 14:52:26 Synced: termux_info_painel.sh
+✅ 14:52:26 Synced: termux_restore.sh
+✅ 14:52:26 Synced: termux_sync_onedrive.sh
+✅ 14:52:26 Synced: wifi_usb.sh
+✅ 14:52:26 — Synced (hidden): .bashrc
+ 2025-06-02 14:52:26 — Sync completed.
+ 2025-06-02 15:16:05 — Syncing files from /sdcard/termux_share to /data/data/com.termux/files/home/scripts...
+✅ 15:16:05 Synced: Leva_Termux.bat
+✅ 15:16:05 Synced: Termux_Restore.md
+✅ 15:16:05 Synced: adb_script.sh
+✅ 15:16:05 Synced: batklwp_versioned_backup.sh
+✅ 15:16:05 Synced: cmp_klwp.sh
+✅ 15:16:05 Synced: commands.sh
+✅ 15:16:05 Synced: echo_run_command.sh
+✅ 15:16:05 Skipped: sync_from_pc.sh
+✅ 15:16:05 Synced: sync_from_pc_bak.sh
+✅ 15:16:05 Synced: termux_backup.sh
+✅ 15:16:05 Synced: termux_info_painel.sh
+✅ 15:16:05 Synced: termux_restore.sh
+✅ 15:16:05 Synced: termux_sync_onedrive.sh
+✅ 15:16:05 Synced: wifi_usb.sh
+✅ 15:16:05 — Synced (hidden): .bashrc
+ 2025-06-02 15:16:05 — Sync completed.
+ 2025-06-02 15:55:32 — Syncing files from /sdcard/termux_share to /data/data/com.termux/files/home/scripts...
+✅ 15:55:33 Synced: Leva_Termux.bat
+✅ 15:55:33 Synced: Termux_Restore.md
+✅ 15:55:33 Synced: adb_script.sh
+✅ 15:55:33 Synced: batklwp_versioned_backup.sh
+✅ 15:55:33 Synced: cmp_klwp.sh
+✅ 15:55:33 Synced: commands.sh
+✅ 15:55:33 Synced: echo_run_command.sh
+✅ 15:55:33 Skipped: sync_from_pc.sh
+✅ 15:55:33 Synced: sync_from_pc_bak.sh
+✅ 15:55:33 Synced: termux_backup.sh
+✅ 15:55:33 Synced: termux_backup_sync.sh
+✅ 15:55:33 Synced: termux_info_painel.sh
+✅ 15:55:33 Synced: termux_restore.sh
+✅ 15:55:33 Synced: termux_sync_onedrive.sh
+✅ 15:55:33 Synced: wifi_usb.sh
+✅ 15:55:33 — Synced (hidden): .bashrc
+ 2025-06-02 15:55:33 — Sync completed.
+ 2025-06-02 16:15:42 — Syncing files from /sdcard/termux_share to /data/data/com.termux/files/home/scripts...
+✅ 16:15:42 Synced: Leva_Termux.bat
+✅ 16:15:42 Synced: Termux_Restore.md
+✅ 16:15:42 Synced: adb_script.sh
+✅ 16:15:42 Synced: batklwp_versioned_backup.sh
+✅ 16:15:43 Synced: cmp_klwp.sh
+✅ 16:15:43 Synced: commands.sh
+✅ 16:15:43 Synced: echo_run_command.sh
+✅ 16:15:43 Skipped: sync_from_pc.sh
+✅ 16:15:43 Synced: sync_from_pc_bak.sh
+✅ 16:15:43 Synced: termux_backup.sh
+✅ 16:15:43 Synced: termux_backup_sync.sh
+✅ 16:15:43 Synced: termux_info_painel.sh
+✅ 16:15:43 Synced: termux_restore.sh
+✅ 16:15:43 Synced: termux_sync_onedrive.sh
+✅ 16:15:43 Synced: wifi_usb.sh
+✅ 16:15:43 — Synced (hidden): .bashrc
+ 2025-06-02 16:15:43 — Sync completed.

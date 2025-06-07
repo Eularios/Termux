@@ -1,0 +1,387 @@
+[2025-06-02 14:15:32] Executado: /data/data/com.termux/files/home/scripts/termux_info_painel.sh 
+[2025-06-02 14:19:41] Executado: /data/data/com.termux/files/home/scripts/termux_info_painel.sh 
+[2025-06-02 14:24:56] Executado: /data/data/com.termux/files/home/scripts/termux_info_painel.sh 
+[2025-06-02 14:25:29] Executado: termux_info_painel.sh 
+[2025-06-02 14:27:03] Executado: /data/data/com.termux/files/home/scripts/termux_info_painel.sh 
+[2025-06-02 14:29:23] Executado: /data/data/com.termux/files/home/scripts/termux_info_painel.sh 
+[2025-06-02 14:30:42] Executado: /data/data/com.termux/files/home/scripts/termux_info_painel.sh 
+[2025-06-02 14:32:09] Executado: /data/data/com.termux/files/home/scripts/termux_info_painel.sh 
+[2025-06-02 14:32:51] Executado: /data/data/com.termux/files/home/scripts/termux_info_painel.sh 
+[2025-06-02 14:52:38] Executado: /data/data/com.termux/files/home/scripts/termux_info_painel.sh 
+[2025-06-02 15:03:24] Executado: /data/data/com.termux/files/home/scripts/termux_backup.sh 
+[2025-06-02 15:07:48] Executado: /data/data/com.termux/files/home/scripts/termux_sync_onedrive.sh 
+[2025-06-02 15:17:08] Executado: /data/data/com.termux/files/home/scripts/termux_sync_onedrive.sh 
+[2025-06-02 16:03:54] Executado: /data/data/com.termux/files/home/scripts/termux_info_painel.sh 
+[2025-06-02 16:04:02] Executado: /data/data/com.termux/files/home/scripts/termux_backup_sync.sh 
+[2025-06-02 16:04:09] Backup e sync concluídos!
+[2025-06-02 16:15:57] Executado: /data/data/com.termux/files/home/scripts/termux_backup_sync.sh 
+[2025-06-02 16:16:05] Backup e sync concluídos!
+[2025-06-02 16:19:37] Executado: /data/data/com.termux/files/home/scripts/termux_backup_sync.sh 
+[2025-06-02 16:19:43] Backup e sync concluídos!
+[2025-06-02 16:21:12] Executado: /data/data/com.termux/files/home/scripts/termux_backup_sync.sh 
+[2025-06-02 16:21:26] Backup e sync concluídos!
+[2025-06-02 16:39:41] Executado: /data/data/com.termux/files/home/scripts/termux_backup_sync.sh 
+[2025-06-02 16:39:50] Backup e sync concluídos!
+[2025-06-02 16:49:56] Executado: /data/data/com.termux/files/home/scripts/termux_backup_sync.sh 
+[2025-06-02 16:50:05] Backup e sync concluídos!
+[2025-06-02 16:54:10] Executado: /data/data/com.termux/files/home/scripts/termux_backup_sync.sh 
+[2025-06-02 16:54:18] Backup e sync concluídos!
+[2025-06-02 16:56:19] Executado: /data/data/com.termux/files/home/scripts/termux_backup_sync.sh 
+[2025-06-02 16:56:29] Backup e sync concluídos!
+[2025-06-02 16:57:07] Executado: /data/data/com.termux/files/home/scripts/termux_backup_sync.sh 
+[2025-06-02 16:57:16] Backup e sync concluídos!
+[2025-06-02 16:57:57] Executado: /data/data/com.termux/files/home/scripts/termux_backup_sync.sh 
+[2025-06-02 16:58:06] Backup e sync concluídos!
+[2025-06-02 17:15:49] Executado: /data/data/com.termux/files/home/scripts/termux_backup_sync.sh 
+[2025-06-02 17:16:00] Backup e sync concluídos!
+[2025-06-02 17:28:54] Executado: /data/data/com.termux/files/home/scripts/termux_backup_sync.sh 
+[2025-06-02 17:29:03] Backup e sync concluídos!
+[2025-06-03 03:49:27] Executado: /data/data/com.termux/files/home/scripts/termux_info_painel.sh 
+[2025-06-03 12:14:20] Executado: termux_backup_sync.sh 
+2025/06/03 15:14:29 NOTICE: bisync is IN BETA. Don't use in production!
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                16 / 16, 100%
+Elapsed time:         0.4sTransferred:   	          0 B / 28.384 KiB, 0%, 0 B/s, ETA -
+Checks:                31 / 32, 97%
+Transferred:            0 / 5, 0%
+Elapsed time:         0.9s
+Checking:
+*                         termux_backup_sync.sh: checking
+Transferring:
+*                               klwp_backup.log:  0% /20.101Ki, 0/s, -
+*                               sync_from_pc.sh:  0% /1.238Ki, 0/s, -
+*                           sync_from_pc_bak.sh:  0% /1.238Ki, 0/s, -
+*                               klwp_ver_bak.sh:  0% /2.591Ki, 0/s, -Transferred:   	          0 B / 28.384 KiB, 0%, 0 B/s, ETA -
+Checks:                32 / 32, 100%
+Transferred:            0 / 5, 0%
+Elapsed time:         1.4s
+Transferring:
+*                               klwp_backup.log:  0% /20.101Ki, 0/s, -
+*                               sync_from_pc.sh:  0% /1.238Ki, 0/s, -
+*                           sync_from_pc_bak.sh:  0% /1.238Ki, 0/s, -
+*                               klwp_ver_bak.sh:  0% /2.591Ki, 0/s, -Transferred:   	   25.168 KiB / 28.384 KiB, 89%, 0 B/s, ETA -
+Checks:                32 / 32, 100%
+Transferred:            0 / 5, 0%
+Elapsed time:         1.9s
+Transferring:
+*                               klwp_backup.log:100% /20.101Ki, 20.082Ki/s, 0s
+*                               sync_from_pc.sh:100% /1.238Ki, 1.237Ki/s, 0s
+*                           sync_from_pc_bak.sh:100% /1.238Ki, 1.237Ki/s, 0s
+*                               klwp_ver_bak.sh:100% /2.591Ki, 2.590Ki/s, 0sTransferred:   	   25.168 KiB / 28.384 KiB, 89%, 12.584 KiB/s, ETA 0s
+Checks:                32 / 32, 100%
+Transferred:            1 / 5, 20%
+Elapsed time:         2.4s
+Transferring:
+*                               klwp_backup.log:100% /20.101Ki, 20.082Ki/s, 0s
+*                               sync_from_pc.sh:100% /1.238Ki, 1.237Ki/s, 0s
+*                           sync_from_pc_bak.sh:100% /1.238Ki, 1.237Ki/s, 0s
+*                            termux_scripts.log:  0% /3.216Ki, 0/s, -Transferred:   	   25.168 KiB / 28.384 KiB, 89%, 12.584 KiB/s, ETA 0s
+Checks:                32 / 32, 100%
+Transferred:            3 / 5, 60%
+Elapsed time:         2.9s
+Transferring:
+*                           sync_from_pc_bak.sh:100% /1.238Ki, 633/s, 0s
+*                            termux_scripts.log:  0% /3.216Ki, 0/s, -Transferred:   	   25.168 KiB / 28.384 KiB, 89%, 8.389 KiB/s, ETA 0s
+Checks:                32 / 32, 100%
+Transferred:            4 / 5, 80%
+Elapsed time:         3.4s
+Transferring:
+*                            termux_scripts.log:  0% /3.216Ki, 0/s, -
+2025/06/03 15:14:32 NOTICE: termux_scripts.log: Failed to cancel multipart upload: unauthenticated: Unauthenticated (upload failed due to: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='3a863ffb-4791-461d-a8b2-0c6d1aa9a7f2'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTAwNzEifQ.QjQFSnm4XWmTbllGU1-0J6XuT2V8AF_PXVwXh-Mt2_YtjQIG05JxXFCvOPm-na0Nj17cYBbK7lvy9gev6R7jrRls1j_qwpk7OIdhQwfnrl2YNrfglLs7WKfuEAj6QsmIPlvR8ftVJB1jqX0ZI9k_jl9W1c5CM5DI15WzmrppxUyWmmff3129BDiXOnVu_KPcGcu0kQOP2Bo6Q6MlBPkCfIBCADVmMLhPDwWKA_-Af9AgIovNpL_6MnNWKN-AhTTO0b5VLAJjmwRrO_og_9OfyHY79xtrZ1gJ2u01mnteyrRu4vymdoGmCcv8J76OX7topFametGcNqpJbeVQMV3T9QD-wxAnSMsAjPS-sRxfsBFt5l3B1GAiorzPw5q53lBFfCcD0p2_9KmNzOJ4v9G-Mg2fRNwtNud6bgbH3Gmoh2OXy1acvjCVRgzOmOhbdTjl6LW_ISYO1v1wmWM2vgFq6w.dgERI23Y8TIR0jinf6nPQzl_Mjorw-YgQL7UdX2Gwno": can't copy - source file is being updated (size changed from 4789 to 5606))
+Transferred:   	   25.168 KiB / 28.384 KiB, 89%, 8.389 KiB/s, ETA 0s
+Checks:                32 / 32, 100%
+Transferred:            4 / 5, 80%
+Elapsed time:         3.5s
+Transferring:
+*                            termux_scripts.log:  0% /3.216Ki, 0/s, -
+2025/06/03 15:14:32 ERROR : termux_scripts.log: Failed to copy: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='3a863ffb-4791-461d-a8b2-0c6d1aa9a7f2'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTAwNzEifQ.QjQFSnm4XWmTbllGU1-0J6XuT2V8AF_PXVwXh-Mt2_YtjQIG05JxXFCvOPm-na0Nj17cYBbK7lvy9gev6R7jrRls1j_qwpk7OIdhQwfnrl2YNrfglLs7WKfuEAj6QsmIPlvR8ftVJB1jqX0ZI9k_jl9W1c5CM5DI15WzmrppxUyWmmff3129BDiXOnVu_KPcGcu0kQOP2Bo6Q6MlBPkCfIBCADVmMLhPDwWKA_-Af9AgIovNpL_6MnNWKN-AhTTO0b5VLAJjmwRrO_og_9OfyHY79xtrZ1gJ2u01mnteyrRu4vymdoGmCcv8J76OX7topFametGcNqpJbeVQMV3T9QD-wxAnSMsAjPS-sRxfsBFt5l3B1GAiorzPw5q53lBFfCcD0p2_9KmNzOJ4v9G-Mg2fRNwtNud6bgbH3Gmoh2OXy1acvjCVRgzOmOhbdTjl6LW_ISYO1v1wmWM2vgFq6w.dgERI23Y8TIR0jinf6nPQzl_Mjorw-YgQL7UdX2Gwno": can't copy - source file is being updated (size changed from 4789 to 5606)
+Transferred:   	   25.168 KiB / 28.384 KiB, 89%, 8.389 KiB/s, ETA 0s
+Errors:                 1 (retrying may help)
+Checks:                32 / 32, 100%
+Transferred:            4 / 5, 80%
+Elapsed time:         3.5s
+Transferring:
+*                            termux_scripts.log:  0% /3.216Ki, 0/s, -
+2025/06/03 15:14:32 ERROR : Bisync critical error: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='3a863ffb-4791-461d-a8b2-0c6d1aa9a7f2'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTAwNzEifQ.QjQFSnm4XWmTbllGU1-0J6XuT2V8AF_PXVwXh-Mt2_YtjQIG05JxXFCvOPm-na0Nj17cYBbK7lvy9gev6R7jrRls1j_qwpk7OIdhQwfnrl2YNrfglLs7WKfuEAj6QsmIPlvR8ftVJB1jqX0ZI9k_jl9W1c5CM5DI15WzmrppxUyWmmff3129BDiXOnVu_KPcGcu0kQOP2Bo6Q6MlBPkCfIBCADVmMLhPDwWKA_-Af9AgIovNpL_6MnNWKN-AhTTO0b5VLAJjmwRrO_og_9OfyHY79xtrZ1gJ2u01mnteyrRu4vymdoGmCcv8J76OX7topFametGcNqpJbeVQMV3T9QD-wxAnSMsAjPS-sRxfsBFt5l3B1GAiorzPw5q53lBFfCcD0p2_9KmNzOJ4v9G-Mg2fRNwtNud6bgbH3Gmoh2OXy1acvjCVRgzOmOhbdTjl6LW_ISYO1v1wmWM2vgFq6w.dgERI23Y8TIR0jinf6nPQzl_Mjorw-YgQL7UdX2Gwno": can't copy - source file is being updated (size changed from 4789 to 5606)
+Transferred:   	   25.168 KiB / 25.168 KiB, 100%, 8.389 KiB/s, ETA 0s
+Errors:                 1 (retrying may help)
+Checks:                32 / 32, 100%
+Transferred:            4 / 4, 100%
+Elapsed time:         3.5s
+2025/06/03 15:14:32 ERROR : Bisync aborted. Must run --resync to recover.
+Transferred:   	   25.168 KiB / 25.168 KiB, 100%, 8.389 KiB/s, ETA 0s
+Errors:                 1 (retrying may help)
+Checks:                32 / 32, 100%
+Transferred:            4 / 4, 100%
+Elapsed time:         3.5sTransferred:   	   25.168 KiB / 25.168 KiB, 100%, 8.389 KiB/s, ETA 0s
+Errors:                 2 (fatal error encountered)
+Checks:                32 / 32, 100%
+Transferred:            4 / 4, 100%
+Elapsed time:         3.5s
+2025/06/03 15:14:32 NOTICE: Failed to bisync with 2 errors: last error was: bisync aborted
+[2025-06-03 12:14:34] Backup e sync concluídos!
+[2025-06-03 12:24:04] Executado: termux_backup_sync.sh 
+2025/06/03 15:24:10 NOTICE: bisync is IN BETA. Don't use in production!
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                19 / 19, 100%
+Elapsed time:         0.4sTransferred:   	          0 B / 34.564 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 3, 0%
+Elapsed time:         0.9s
+Transferring:
+*                               klwp_backup.log:  0% /20.911Ki, 0/s, -
+*                            termux_scripts.log:  0% /11.082Ki, 0/s, -
+*                               klwp_ver_bak.sh:  0% /2.571Ki, 0/s, -Transferred:   	          0 B / 34.564 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 3, 0%
+Elapsed time:         1.5s
+Transferring:
+*                               klwp_backup.log:  0% /20.911Ki, 0/s, -
+*                            termux_scripts.log:  0% /11.082Ki, 0/s, -
+*                               klwp_ver_bak.sh:  0% /2.571Ki, 0/s, -Transferred:   	   23.482 KiB / 34.564 KiB, 68%, 11.740 KiB/s, ETA 0s
+Checks:                38 / 38, 100%
+Transferred:            0 / 3, 0%
+Elapsed time:         2.0s
+Transferring:
+*                               klwp_backup.log:100% /20.911Ki, 20.891Ki/s, 0s
+*                            termux_scripts.log:  0% /11.082Ki, 0/s, -
+*                               klwp_ver_bak.sh:100% /2.571Ki, 2.570Ki/s, 0s
+2025/06/03 15:24:12 NOTICE: termux_scripts.log: Failed to cancel multipart upload: unauthenticated: Unauthenticated (upload failed due to: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='32c0bf4f-0d6c-480e-ac55-3c386d089287'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTA2NTEifQ.0MsMdRiKTQnT0n8iuI2LOe95LymxBDPKjpwl9_FoBVRfNBh9GvpV8hL-0q9EqRwR3E_VcoxEPHpWhg11dnh5qkyIsvsCiiDOAez_J4vaBhF8XoX2G0-mx58S5JU3bVVEJmr5h_X1K1jfOU5ZQ7eWSSGpCkKeFOcTtemFOhCf9iluJJuOt0938tnTdMfIq01kOPDvn57jQSp6gi8L8qB1tdRWpAIzSzvIkh9grUQ7IYaUfQEcGfyPpRZGACxjbwuYCZAfYlbd8xYQv-BZMy8GSm14vdaCXqjNvh0oSR0zsX0geh3UKBMND3rgQmzs_cXL0gfBhZ161aDc89tJAFJde7bwh75Q00cjokv8LkvBd7HBppRJOkMpHM458S1_pxy1J564kYphsIUJpm8QI2w9xIhJR7WntSXOHjuc7k2y7ko4UOm7jmjvJi3RcvIyNQOE0l-bwpphjfldfdE9HGn5RA.5CKeT65VARAhl4FrIY6MdZyX-opT_-EYKHUHAYZdk98": can't copy - source file is being updated (size changed from 11438 to 12163))
+Transferred:   	   23.482 KiB / 34.564 KiB, 68%, 11.740 KiB/s, ETA 0s
+Checks:                38 / 38, 100%
+Transferred:            0 / 3, 0%
+Elapsed time:         2.1s
+Transferring:
+*                               klwp_backup.log:100% /20.911Ki, 20.891Ki/s, 0s
+*                            termux_scripts.log:  0% /11.082Ki, 0/s, -
+*                               klwp_ver_bak.sh:100% /2.571Ki, 2.570Ki/s, 0s
+2025/06/03 15:24:12 ERROR : termux_scripts.log: Failed to copy: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='32c0bf4f-0d6c-480e-ac55-3c386d089287'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTA2NTEifQ.0MsMdRiKTQnT0n8iuI2LOe95LymxBDPKjpwl9_FoBVRfNBh9GvpV8hL-0q9EqRwR3E_VcoxEPHpWhg11dnh5qkyIsvsCiiDOAez_J4vaBhF8XoX2G0-mx58S5JU3bVVEJmr5h_X1K1jfOU5ZQ7eWSSGpCkKeFOcTtemFOhCf9iluJJuOt0938tnTdMfIq01kOPDvn57jQSp6gi8L8qB1tdRWpAIzSzvIkh9grUQ7IYaUfQEcGfyPpRZGACxjbwuYCZAfYlbd8xYQv-BZMy8GSm14vdaCXqjNvh0oSR0zsX0geh3UKBMND3rgQmzs_cXL0gfBhZ161aDc89tJAFJde7bwh75Q00cjokv8LkvBd7HBppRJOkMpHM458S1_pxy1J564kYphsIUJpm8QI2w9xIhJR7WntSXOHjuc7k2y7ko4UOm7jmjvJi3RcvIyNQOE0l-bwpphjfldfdE9HGn5RA.5CKeT65VARAhl4FrIY6MdZyX-opT_-EYKHUHAYZdk98": can't copy - source file is being updated (size changed from 11438 to 12163)
+Transferred:   	   23.482 KiB / 34.564 KiB, 68%, 11.740 KiB/s, ETA 0s
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Transferred:            0 / 3, 0%
+Elapsed time:         2.1s
+Transferring:
+*                               klwp_backup.log:100% /20.911Ki, 20.891Ki/s, 0s
+*                            termux_scripts.log:  0% /11.082Ki, 0/s, -
+*                               klwp_ver_bak.sh:100% /2.571Ki, 2.570Ki/s, 0sTransferred:   	   23.482 KiB / 23.482 KiB, 100%, 11.740 KiB/s, ETA 0s
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Transferred:            0 / 2, 0%
+Elapsed time:         2.4s
+Transferring:
+*                               klwp_backup.log:100% /20.911Ki, 20.891Ki/s, 0s
+*                               klwp_ver_bak.sh:100% /2.571Ki, 2.570Ki/s, 0s
+2025/06/03 15:24:12 ERROR : Bisync critical error: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='32c0bf4f-0d6c-480e-ac55-3c386d089287'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTA2NTEifQ.0MsMdRiKTQnT0n8iuI2LOe95LymxBDPKjpwl9_FoBVRfNBh9GvpV8hL-0q9EqRwR3E_VcoxEPHpWhg11dnh5qkyIsvsCiiDOAez_J4vaBhF8XoX2G0-mx58S5JU3bVVEJmr5h_X1K1jfOU5ZQ7eWSSGpCkKeFOcTtemFOhCf9iluJJuOt0938tnTdMfIq01kOPDvn57jQSp6gi8L8qB1tdRWpAIzSzvIkh9grUQ7IYaUfQEcGfyPpRZGACxjbwuYCZAfYlbd8xYQv-BZMy8GSm14vdaCXqjNvh0oSR0zsX0geh3UKBMND3rgQmzs_cXL0gfBhZ161aDc89tJAFJde7bwh75Q00cjokv8LkvBd7HBppRJOkMpHM458S1_pxy1J564kYphsIUJpm8QI2w9xIhJR7WntSXOHjuc7k2y7ko4UOm7jmjvJi3RcvIyNQOE0l-bwpphjfldfdE9HGn5RA.5CKeT65VARAhl4FrIY6MdZyX-opT_-EYKHUHAYZdk98": can't copy - source file is being updated (size changed from 11438 to 12163)
+Transferred:   	   23.482 KiB / 23.482 KiB, 100%, 11.740 KiB/s, ETA 0s
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Transferred:            2 / 2, 100%
+Elapsed time:         2.6s
+2025/06/03 15:24:12 ERROR : Bisync aborted. Must run --resync to recover.
+Transferred:   	   23.482 KiB / 23.482 KiB, 100%, 11.740 KiB/s, ETA 0s
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Transferred:            2 / 2, 100%
+Elapsed time:         2.6sTransferred:   	   23.482 KiB / 23.482 KiB, 100%, 11.740 KiB/s, ETA 0s
+Errors:                 2 (fatal error encountered)
+Checks:                38 / 38, 100%
+Transferred:            2 / 2, 100%
+Elapsed time:         2.6s
+2025/06/03 15:24:12 NOTICE: Failed to bisync with 2 errors: last error was: bisync aborted
+[2025-06-03 12:24:14] Backup e sync concluídos!
+[2025-06-03 12:36:42] Executado: termux_backup_sync.sh 
+2025/06/03 15:36:48 NOTICE: bisync is IN BETA. Don't use in production!
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                19 / 19, 100%
+Elapsed time:         0.4sTransferred:   	          0 B / 18.329 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.0s
+Transferring:
+*                            termux_scripts.log:  0% /18.329Ki, 0/s, -Transferred:   	          0 B / 18.329 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.4s
+Transferring:
+*                            termux_scripts.log:  0% /18.329Ki, 0/s, -
+2025/06/03 15:36:50 NOTICE: termux_scripts.log: Failed to cancel multipart upload: unauthenticated: Unauthenticated (upload failed due to: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='ede065ae-ab5b-4db7-8efc-b851dc589776'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTE0MDkifQ.D83sRPp08gHIgyKTeFmsPT8O3DJ4Zke88bPHHIIN2YVlyeP5EHmXjikBhDfiIc3m-djDWZpcqyDWEnZ0W6ahfpPhy7MvflloUYv3GNwHdIAd40naWdJcvnsZbVtgHnPZ0zuvjeVNCxNsYeZEAlV98vCGlHsSySHAe0aBdiKRwwQDdGc8aBeLur0rMWbiUnKT3s8yulasjSdi1Xr6OLq0K0cQMHCUGglrgBZkKYmhA7217DyXkTQ9dkUB5jbyvarANkxtMfIAL3d5H-sP3287La1a46U2AYLalIecArydo-QpWOzRdJTdE3bdNKYfh82jxRRH2s4EJ__eeHBOTdD8BII9zn4-ESURBy0ByuYuQcSxfYk_ZGUPNCp7tdgYurDHz1xa_Jo0zklRXD5HBKfCZvKVzoklcslLD7VcS-KgD664OYddPvDHyVEwH6CWLow46S7zsZx83Bd9tbX1tiHVZg.V0jlSOAq80tvKs4seaeZI1x6J9tqBlts3FzMj9pXbTE": can't copy - source file is being updated (size changed from 18859 to 19189))
+Transferred:   	          0 B / 18.329 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.8s
+Transferring:
+*                            termux_scripts.log:  0% /18.329Ki, 0/s, -
+2025/06/03 15:36:50 ERROR : termux_scripts.log: Failed to copy: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='ede065ae-ab5b-4db7-8efc-b851dc589776'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTE0MDkifQ.D83sRPp08gHIgyKTeFmsPT8O3DJ4Zke88bPHHIIN2YVlyeP5EHmXjikBhDfiIc3m-djDWZpcqyDWEnZ0W6ahfpPhy7MvflloUYv3GNwHdIAd40naWdJcvnsZbVtgHnPZ0zuvjeVNCxNsYeZEAlV98vCGlHsSySHAe0aBdiKRwwQDdGc8aBeLur0rMWbiUnKT3s8yulasjSdi1Xr6OLq0K0cQMHCUGglrgBZkKYmhA7217DyXkTQ9dkUB5jbyvarANkxtMfIAL3d5H-sP3287La1a46U2AYLalIecArydo-QpWOzRdJTdE3bdNKYfh82jxRRH2s4EJ__eeHBOTdD8BII9zn4-ESURBy0ByuYuQcSxfYk_ZGUPNCp7tdgYurDHz1xa_Jo0zklRXD5HBKfCZvKVzoklcslLD7VcS-KgD664OYddPvDHyVEwH6CWLow46S7zsZx83Bd9tbX1tiHVZg.V0jlSOAq80tvKs4seaeZI1x6J9tqBlts3FzMj9pXbTE": can't copy - source file is being updated (size changed from 18859 to 19189)
+Transferred:   	          0 B / 18.329 KiB, 0%, 0 B/s, ETA -
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.8s
+Transferring:
+*                            termux_scripts.log:  0% /18.329Ki, 0/s, -
+2025/06/03 15:36:50 ERROR : Bisync critical error: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='ede065ae-ab5b-4db7-8efc-b851dc589776'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTE0MDkifQ.D83sRPp08gHIgyKTeFmsPT8O3DJ4Zke88bPHHIIN2YVlyeP5EHmXjikBhDfiIc3m-djDWZpcqyDWEnZ0W6ahfpPhy7MvflloUYv3GNwHdIAd40naWdJcvnsZbVtgHnPZ0zuvjeVNCxNsYeZEAlV98vCGlHsSySHAe0aBdiKRwwQDdGc8aBeLur0rMWbiUnKT3s8yulasjSdi1Xr6OLq0K0cQMHCUGglrgBZkKYmhA7217DyXkTQ9dkUB5jbyvarANkxtMfIAL3d5H-sP3287La1a46U2AYLalIecArydo-QpWOzRdJTdE3bdNKYfh82jxRRH2s4EJ__eeHBOTdD8BII9zn4-ESURBy0ByuYuQcSxfYk_ZGUPNCp7tdgYurDHz1xa_Jo0zklRXD5HBKfCZvKVzoklcslLD7VcS-KgD664OYddPvDHyVEwH6CWLow46S7zsZx83Bd9tbX1tiHVZg.V0jlSOAq80tvKs4seaeZI1x6J9tqBlts3FzMj9pXbTE": can't copy - source file is being updated (size changed from 18859 to 19189)
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Elapsed time:         1.8s
+2025/06/03 15:36:50 ERROR : Bisync aborted. Must run --resync to recover.
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Elapsed time:         1.8sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 2 (fatal error encountered)
+Checks:                38 / 38, 100%
+Elapsed time:         1.8s
+2025/06/03 15:36:50 NOTICE: Failed to bisync with 2 errors: last error was: bisync aborted
+[2025-06-03 12:36:51] Backup e sync concluídos!
+[2025-06-03 12:42:06] Executado: termux_backup_sync.sh 
+2025/06/03 15:42:11 NOTICE: bisync is IN BETA. Don't use in production!
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                19 / 19, 100%
+Elapsed time:         0.5sTransferred:   	          0 B / 24.047 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         0.9s
+Transferring:
+*                            termux_scripts.log:  0% /24.047Ki, 0/s, -Transferred:   	          0 B / 24.047 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.5s
+Transferring:
+*                            termux_scripts.log:  0% /24.047Ki, 0/s, -
+2025/06/03 15:42:13 NOTICE: termux_scripts.log: Failed to cancel multipart upload: unauthenticated: Unauthenticated (upload failed due to: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='254bb97b-cf8e-46a1-8850-c48794be81f5'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTE3MzIifQ.cxcDkk_p1Pip7Att6P08Fk2Lbc4eRM7bx_4YEJ7D6RNt6-mUIuxSPfnJPDuCPF1Ay7mk51sE8pouB0RKmZtwEr-AoUA97mdoxwKNqDj6NVpV93rbApL61BqX4wy5wbkpf065mWiDdM3eCLFA8tEOuVmaOdxzuKkFxX0hFlzP1pDet8Wz0D-r37eLfF2fTkog_5SnqG2IHAgBTJiKynCKQUKWqTLstJ7iXtj34ypXjvhDoBpOUlYYcJ85RO1SOxVNC9oJSF3kqpuQqeMiXPrr32GO3z1RlV4AcO-RRA7S8r0ExsPPRsciAtE9G1KBYzEeZP23xu6OhrOpmI5MfeURX4c0y5Bk4v_z26jRlebvzhzBCyfgnlwwm3TfyMQjuCCU4GzdYU58cM0OsnRNmfhpKFs5TfneNHMmF0f6rKVWAsqvJkZTR-kHBIn558gGfW5O_s9PGEQ7lz-moY6n_HWLtA.ViYUAW9JucvPEkZommQ7cnxQKETdIarfs0GkVRftkac": can't copy - source file is being updated (size changed from 24714 to 25142))
+Transferred:   	          0 B / 24.047 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.8s
+Transferring:
+*                            termux_scripts.log:  0% /24.047Ki, 0/s, -
+2025/06/03 15:42:13 ERROR : termux_scripts.log: Failed to copy: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='254bb97b-cf8e-46a1-8850-c48794be81f5'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTE3MzIifQ.cxcDkk_p1Pip7Att6P08Fk2Lbc4eRM7bx_4YEJ7D6RNt6-mUIuxSPfnJPDuCPF1Ay7mk51sE8pouB0RKmZtwEr-AoUA97mdoxwKNqDj6NVpV93rbApL61BqX4wy5wbkpf065mWiDdM3eCLFA8tEOuVmaOdxzuKkFxX0hFlzP1pDet8Wz0D-r37eLfF2fTkog_5SnqG2IHAgBTJiKynCKQUKWqTLstJ7iXtj34ypXjvhDoBpOUlYYcJ85RO1SOxVNC9oJSF3kqpuQqeMiXPrr32GO3z1RlV4AcO-RRA7S8r0ExsPPRsciAtE9G1KBYzEeZP23xu6OhrOpmI5MfeURX4c0y5Bk4v_z26jRlebvzhzBCyfgnlwwm3TfyMQjuCCU4GzdYU58cM0OsnRNmfhpKFs5TfneNHMmF0f6rKVWAsqvJkZTR-kHBIn558gGfW5O_s9PGEQ7lz-moY6n_HWLtA.ViYUAW9JucvPEkZommQ7cnxQKETdIarfs0GkVRftkac": can't copy - source file is being updated (size changed from 24714 to 25142)
+Transferred:   	          0 B / 24.047 KiB, 0%, 0 B/s, ETA -
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.8s
+Transferring:
+*                            termux_scripts.log:  0% /24.047Ki, 0/s, -
+2025/06/03 15:42:13 ERROR : Bisync critical error: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='254bb97b-cf8e-46a1-8850-c48794be81f5'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTE3MzIifQ.cxcDkk_p1Pip7Att6P08Fk2Lbc4eRM7bx_4YEJ7D6RNt6-mUIuxSPfnJPDuCPF1Ay7mk51sE8pouB0RKmZtwEr-AoUA97mdoxwKNqDj6NVpV93rbApL61BqX4wy5wbkpf065mWiDdM3eCLFA8tEOuVmaOdxzuKkFxX0hFlzP1pDet8Wz0D-r37eLfF2fTkog_5SnqG2IHAgBTJiKynCKQUKWqTLstJ7iXtj34ypXjvhDoBpOUlYYcJ85RO1SOxVNC9oJSF3kqpuQqeMiXPrr32GO3z1RlV4AcO-RRA7S8r0ExsPPRsciAtE9G1KBYzEeZP23xu6OhrOpmI5MfeURX4c0y5Bk4v_z26jRlebvzhzBCyfgnlwwm3TfyMQjuCCU4GzdYU58cM0OsnRNmfhpKFs5TfneNHMmF0f6rKVWAsqvJkZTR-kHBIn558gGfW5O_s9PGEQ7lz-moY6n_HWLtA.ViYUAW9JucvPEkZommQ7cnxQKETdIarfs0GkVRftkac": can't copy - source file is being updated (size changed from 24714 to 25142)
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Elapsed time:         1.8s
+2025/06/03 15:42:13 ERROR : Bisync aborted. Must run --resync to recover.
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Elapsed time:         1.8sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 2 (fatal error encountered)
+Checks:                38 / 38, 100%
+Elapsed time:         1.8s
+2025/06/03 15:42:13 NOTICE: Failed to bisync with 2 errors: last error was: bisync aborted
+[2025-06-03 12:42:14] Backup e sync concluídos!
+[2025-06-03 12:44:29] Executado: termux_backup_sync.sh 
+2025/06/03 15:44:35 NOTICE: bisync is IN BETA. Don't use in production!
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                19 / 19, 100%
+Elapsed time:         0.5sTransferred:   	          0 B / 29.765 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.0s
+Transferring:
+*                            termux_scripts.log:  0% /29.765Ki, 0/s, -Transferred:   	          0 B / 29.765 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.5s
+Transferring:
+*                            termux_scripts.log:  0% /29.765Ki, 0/s, -
+2025/06/03 15:44:37 NOTICE: termux_scripts.log: Failed to cancel multipart upload: unauthenticated: Unauthenticated (upload failed due to: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='c883eb50-2b51-48b7-8e25-2923a6444980'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTE4NzYifQ.Z1yLT-pp3iFxRhwiO0Ozk7w4wxpF-AUcEkfuR42NmmqpWHrc9XvpORCkdACTGTXnHjb4nXIXxS-qTx7x4jeeezSgVznVHcKdjPClZK-PJb8EV2kPwpe8AxGZjsNNeoAUGuUCFMFvb_XdsFjngOIYZ140tBnA-buePRBbs54DOgSMZuH4JeU7otU4zWdPVPoWpa5rMVhzJoNS40VE3IxCQ5PDHz6OQxakVQusfvWnCkSLb-alAXQLFaybWcppDI6WmLvBWhShZEq5-nA5IDKCMVqODJMJLEBqncYE43ON1uT_UX91cPVc-OKJi7PVl9oKC4AC04uQtKtlGo7NjO0ZcdPz-E2CuIPGD_oFYO96YjEAtvB8L3u5idoJk2FZnO_gUDGkfBSPTaniAD1I0cko40UUipGMb5ylkr526eq6VQUY3dlmU4aptCw5jZtvZt_rKEpWCU5lP75lRjZnw26fRQ.2_DbKGdSo1vggVzUhNOEe7hNE6TZVliiijSEddYaH5o": can't copy - source file is being updated (size changed from 30569 to 30997))
+Transferred:   	          0 B / 29.765 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.9s
+Transferring:
+*                            termux_scripts.log:  0% /29.765Ki, 0/s, -
+2025/06/03 15:44:37 ERROR : termux_scripts.log: Failed to copy: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='c883eb50-2b51-48b7-8e25-2923a6444980'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTE4NzYifQ.Z1yLT-pp3iFxRhwiO0Ozk7w4wxpF-AUcEkfuR42NmmqpWHrc9XvpORCkdACTGTXnHjb4nXIXxS-qTx7x4jeeezSgVznVHcKdjPClZK-PJb8EV2kPwpe8AxGZjsNNeoAUGuUCFMFvb_XdsFjngOIYZ140tBnA-buePRBbs54DOgSMZuH4JeU7otU4zWdPVPoWpa5rMVhzJoNS40VE3IxCQ5PDHz6OQxakVQusfvWnCkSLb-alAXQLFaybWcppDI6WmLvBWhShZEq5-nA5IDKCMVqODJMJLEBqncYE43ON1uT_UX91cPVc-OKJi7PVl9oKC4AC04uQtKtlGo7NjO0ZcdPz-E2CuIPGD_oFYO96YjEAtvB8L3u5idoJk2FZnO_gUDGkfBSPTaniAD1I0cko40UUipGMb5ylkr526eq6VQUY3dlmU4aptCw5jZtvZt_rKEpWCU5lP75lRjZnw26fRQ.2_DbKGdSo1vggVzUhNOEe7hNE6TZVliiijSEddYaH5o": can't copy - source file is being updated (size changed from 30569 to 30997)
+Transferred:   	          0 B / 29.765 KiB, 0%, 0 B/s, ETA -
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.9s
+Transferring:
+*                            termux_scripts.log:  0% /29.765Ki, 0/s, -
+2025/06/03 15:44:37 ERROR : Bisync critical error: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='c883eb50-2b51-48b7-8e25-2923a6444980'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTE4NzYifQ.Z1yLT-pp3iFxRhwiO0Ozk7w4wxpF-AUcEkfuR42NmmqpWHrc9XvpORCkdACTGTXnHjb4nXIXxS-qTx7x4jeeezSgVznVHcKdjPClZK-PJb8EV2kPwpe8AxGZjsNNeoAUGuUCFMFvb_XdsFjngOIYZ140tBnA-buePRBbs54DOgSMZuH4JeU7otU4zWdPVPoWpa5rMVhzJoNS40VE3IxCQ5PDHz6OQxakVQusfvWnCkSLb-alAXQLFaybWcppDI6WmLvBWhShZEq5-nA5IDKCMVqODJMJLEBqncYE43ON1uT_UX91cPVc-OKJi7PVl9oKC4AC04uQtKtlGo7NjO0ZcdPz-E2CuIPGD_oFYO96YjEAtvB8L3u5idoJk2FZnO_gUDGkfBSPTaniAD1I0cko40UUipGMb5ylkr526eq6VQUY3dlmU4aptCw5jZtvZt_rKEpWCU5lP75lRjZnw26fRQ.2_DbKGdSo1vggVzUhNOEe7hNE6TZVliiijSEddYaH5o": can't copy - source file is being updated (size changed from 30569 to 30997)
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Elapsed time:         1.9s
+2025/06/03 15:44:37 ERROR : Bisync aborted. Must run --resync to recover.
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Elapsed time:         1.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 2 (fatal error encountered)
+Checks:                38 / 38, 100%
+Elapsed time:         1.9s
+2025/06/03 15:44:37 NOTICE: Failed to bisync with 2 errors: last error was: bisync aborted
+[2025-06-03 12:44:38] Backup e sync concluídos!
+[2025-06-03 12:46:31] Executado: termux_backup_sync.sh 
+2025/06/03 15:46:36 NOTICE: bisync is IN BETA. Don't use in production!
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                19 / 19, 100%
+Elapsed time:         0.5sTransferred:   	          0 B / 35.482 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         0.9s
+Transferring:
+*                            termux_scripts.log:  0% /35.482Ki, 0/s, -Transferred:   	          0 B / 35.482 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.4s
+Transferring:
+*                            termux_scripts.log:  0% /35.482Ki, 0/s, -
+2025/06/03 15:46:38 NOTICE: termux_scripts.log: Failed to cancel multipart upload: unauthenticated: Unauthenticated (upload failed due to: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='48eb7e1a-33df-4da2-8f73-c6c735017c8e'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTE5OTcifQ.ylnNECwGb7qtvo5o07agtM17OD7UNkdAS0EppPeaH9FsXFQFFQTXvrq3Q67ZV9WYdLSiCbcsed0lAyoNSmLLBuRtjYLiHYH19Q1aR2vNxPJAlKsNvJVwz8is4K_smj-IOE8XwaBdKXsrNXu9WK6fQ_NTHdQfyy4FA7Xf-FiipUhCF3nywRG5vrPInWcxnXa7T97eC9JJWIXWmobrQXAoNmqquMBFLkksp5NOG7hJ7IchszsZ6qMRuPDL8GGCzhHsL5MlSJBUefe5-cK13Dd05Pkq3BWqD7bEkU7HqWU-Ie9xABeZKJsEs5P8VMEDDwVmj3aRgbNFDW0aZDpG7cEPK_z4jrUgVaazbjtcjkzsXrVZcDjv-LhWLmiVUK0tvS1wLGmyPbxw_hQyegloKQI_xBk5ZwMXGHhmJp69fXLy498U0Y0l1C2e0L-xvof9iiibAtT0NunNaTYTplqj5I40EA.VpvERDtQ1peZClzon1mkIAAzN_xdJsHNxoEA3dZbKpA": can't copy - source file is being updated (size changed from 36424 to 36623))
+Transferred:   	          0 B / 35.482 KiB, 0%, 0 B/s, ETA -
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.8s
+Transferring:
+*                            termux_scripts.log:  0% /35.482Ki, 0/s, -
+2025/06/03 15:46:38 ERROR : termux_scripts.log: Failed to copy: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='48eb7e1a-33df-4da2-8f73-c6c735017c8e'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTE5OTcifQ.ylnNECwGb7qtvo5o07agtM17OD7UNkdAS0EppPeaH9FsXFQFFQTXvrq3Q67ZV9WYdLSiCbcsed0lAyoNSmLLBuRtjYLiHYH19Q1aR2vNxPJAlKsNvJVwz8is4K_smj-IOE8XwaBdKXsrNXu9WK6fQ_NTHdQfyy4FA7Xf-FiipUhCF3nywRG5vrPInWcxnXa7T97eC9JJWIXWmobrQXAoNmqquMBFLkksp5NOG7hJ7IchszsZ6qMRuPDL8GGCzhHsL5MlSJBUefe5-cK13Dd05Pkq3BWqD7bEkU7HqWU-Ie9xABeZKJsEs5P8VMEDDwVmj3aRgbNFDW0aZDpG7cEPK_z4jrUgVaazbjtcjkzsXrVZcDjv-LhWLmiVUK0tvS1wLGmyPbxw_hQyegloKQI_xBk5ZwMXGHhmJp69fXLy498U0Y0l1C2e0L-xvof9iiibAtT0NunNaTYTplqj5I40EA.VpvERDtQ1peZClzon1mkIAAzN_xdJsHNxoEA3dZbKpA": can't copy - source file is being updated (size changed from 36424 to 36623)
+Transferred:   	          0 B / 35.482 KiB, 0%, 0 B/s, ETA -
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.8s
+Transferring:
+*                            termux_scripts.log:  0% /35.482Ki, 0/s, -
+2025/06/03 15:46:38 ERROR : Bisync critical error: Put "https://my.microsoftpersonalcontent.com/personal/5b071816efa9b83e/_api/v2.0/drives/b!p3jTMPKD7UK0VXnp8OljpMqNcxdtHMRKhlP2Air7Ln4Md1mNInKISpZmAEPSk1ts/items/01ZADEQCN37B5Q6PZPNVAIZVUJXW2Q2PVD/uploadSession?guid='48eb7e1a-33df-4da2-8f73-c6c735017c8e'&dc=0&tempauth=v1e.eyJzaXRlaWQiOiIzMGQzNzhhNy04M2YyLTQyZWQtYjQ1NS03OWU5ZjBlOTYzYTQiLCJhcHBfZGlzcGxheW5hbWUiOiJyY2xvbmUiLCJhcHBpZCI6ImIxNTY2NWQ5LWVkYTYtNDA5Mi04NTM5LTBlZWMzNzZhZmQ1OSIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9teS5taWNyb3NvZnRwZXJzb25hbGNvbnRlbnQuY29tQDkxODgwNDBkLTZjNjctNGM1Yi1iMTEyLTM2YTMwNGI2NmRhZCIsImV4cCI6IjE3NDkwNTE5OTcifQ.ylnNECwGb7qtvo5o07agtM17OD7UNkdAS0EppPeaH9FsXFQFFQTXvrq3Q67ZV9WYdLSiCbcsed0lAyoNSmLLBuRtjYLiHYH19Q1aR2vNxPJAlKsNvJVwz8is4K_smj-IOE8XwaBdKXsrNXu9WK6fQ_NTHdQfyy4FA7Xf-FiipUhCF3nywRG5vrPInWcxnXa7T97eC9JJWIXWmobrQXAoNmqquMBFLkksp5NOG7hJ7IchszsZ6qMRuPDL8GGCzhHsL5MlSJBUefe5-cK13Dd05Pkq3BWqD7bEkU7HqWU-Ie9xABeZKJsEs5P8VMEDDwVmj3aRgbNFDW0aZDpG7cEPK_z4jrUgVaazbjtcjkzsXrVZcDjv-LhWLmiVUK0tvS1wLGmyPbxw_hQyegloKQI_xBk5ZwMXGHhmJp69fXLy498U0Y0l1C2e0L-xvof9iiibAtT0NunNaTYTplqj5I40EA.VpvERDtQ1peZClzon1mkIAAzN_xdJsHNxoEA3dZbKpA": can't copy - source file is being updated (size changed from 36424 to 36623)
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Elapsed time:         1.9s
+2025/06/03 15:46:38 ERROR : Bisync aborted. Must run --resync to recover.
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 1 (retrying may help)
+Checks:                38 / 38, 100%
+Elapsed time:         1.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Errors:                 2 (fatal error encountered)
+Checks:                38 / 38, 100%
+Elapsed time:         1.9s
+2025/06/03 15:46:38 NOTICE: Failed to bisync with 2 errors: last error was: bisync aborted
+[2025-06-03 12:46:39] Backup e sync concluídos!
+[2025-06-03 12:53:12] Executado: termux_backup_sync.sh 
+2025/06/03 15:53:18 NOTICE: bisync is IN BETA. Don't use in production!
+[2025-06-03 12:57:51] Backup e sync concluídos!
+[2025-06-03 12:58:25] Executado: termux_backup_sync.sh 
+2025/06/03 15:58:30 NOTICE: bisync is IN BETA. Don't use in production!
+[2025-06-03 13:01:22] Backup e sync concluídos!
+[2025-06-03 13:10:42] Executado: termux_backup_sync.sh 
+2025/06/03 16:10:47 NOTICE: bisync is IN BETA. Don't use in production!
+[2025-06-03 13:10:50] Backup e sync concluídos!
+[2025-06-03 13:14:46] Executado: termux_backup_sync.sh 
+2025/06/03 16:14:54 NOTICE: bisync is IN BETA. Don't use in production!
+[2025-06-03 13:14:57] Backup e sync concluídos!
+[2025-06-03 13:15:50] Executado: termux_backup_sync.sh 
+2025/06/03 16:15:56 NOTICE: bisync is IN BETA. Don't use in production!
+[2025-06-07 15:13:35] Backup e sync concluídos!

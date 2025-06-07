@@ -1,0 +1,391 @@
+[2025-06-02 17:48:08] 
+[2025-06-02 17:48:08] ===== 🦇 Bat-backup KLWP iniciado =====
+[2025-06-02 17:48:08] 🟢 KLWP_THEME_BR mudou! Criada nova versão: KLWP_THEME_BR_v1.klwp
+[2025-06-02 17:48:08] 🦇 Subindo .klwp versionados para nuvem (incremental)...
+Transferred:   	          0 B / 15.400 MiB, 0%, 0 B/s, ETA -
+Transferred:            0 / 1, 0%
+Elapsed time:         0.5s
+Transferring:
+ *                         KLWP_THEME_BR_v1.klwp:  0% /15.400Mi, 0/s, -Transferred:   	          0 B / 15.400 MiB, 0%, 0 B/s, ETA -
+Transferred:            0 / 1, 0%
+Elapsed time:         1.0s
+Transferring:
+ *                         KLWP_THEME_BR_v1.klwp:  0% /15.400Mi, 0/s, -Transferred:   	    2.762 MiB / 15.400 MiB, 18%, 0 B/s, ETA -
+Transferred:            0 / 1, 0%
+Elapsed time:         1.5s
+Transferring:
+ *                         KLWP_THEME_BR_v1.klwp: 17% /15.400Mi, 539.934Ki/s, 23Transferred:   	       10 MiB / 15.400 MiB, 65%, 0 B/s, ETA -
+Transferred:            0 / 1, 0%
+Elapsed time:         2.0s
+Transferring:
+ *                         KLWP_THEME_BR_v1.klwp: 64% /15.400Mi, 539.934Ki/s, 10Transferred:   	       10 MiB / 15.400 MiB, 65%, 5.000 MiB/s, ETA 1s
+Transferred:            0 / 1, 0%
+Elapsed time:         2.4s
+Transferring:
+ *                         KLWP_THEME_BR_v1.klwp: 64% /15.400Mi, 5.000Mi/s, 1sTransferred:   	       10 MiB / 15.400 MiB, 65%, 5.000 MiB/s, ETA 1s
+Transferred:            0 / 1, 0%
+Elapsed time:         3.0s
+Transferring:
+ *                         KLWP_THEME_BR_v1.klwp: 64% /15.400Mi, 5.000Mi/s, 1sTransferred:   	   15.400 MiB / 15.400 MiB, 100%, 3.333 MiB/s, ETA 0s
+Transferred:            0 / 1, 0%
+Elapsed time:         3.5s
+Transferring:
+ *                         KLWP_THEME_BR_v1.klwp:100% /15.400Mi, 5.133Mi/s, 0sTransferred:   	   15.400 MiB / 15.400 MiB, 100%, 3.850 MiB/s, ETA 0s
+Transferred:            0 / 1, 0%
+Elapsed time:         4.0s
+Transferring:
+ *                         KLWP_THEME_BR_v1.klwp:100% /15.400Mi, 5.133Mi/s, 0sTransferred:   	   15.400 MiB / 15.400 MiB, 100%, 3.850 MiB/s, ETA 0s
+Transferred:            0 / 1, 0%
+Elapsed time:         4.5s
+Transferring:
+ *                         KLWP_THEME_BR_v1.klwp:100% /15.400Mi, 3.850Mi/s, 0sTransferred:   	   15.400 MiB / 15.400 MiB, 100%, 3.080 MiB/s, ETA 0s
+Transferred:            0 / 1, 0%
+Elapsed time:         5.0s
+Transferring:
+ *                         KLWP_THEME_BR_v1.klwp:100% /15.400Mi, 3.850Mi/s, 0sTransferred:   	   15.400 MiB / 15.400 MiB, 100%, 3.080 MiB/s, ETA 0s
+Transferred:            0 / 1, 0%
+Elapsed time:         5.5s
+Transferring:
+ *                         KLWP_THEME_BR_v1.klwp:100% /15.400Mi, 3.080Mi/s, 0sTransferred:   	   15.400 MiB / 15.400 MiB, 100%, 3.080 MiB/s, ETA 0s
+Transferred:            1 / 1, 100%
+Elapsed time:         5.9s
+[2025-06-02 17:48:16] 🦇 Backup incremental dos demais arquivos e pastas...
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                53 / 53, 100%
+Elapsed time:         0.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               315 / 315, 100%
+Elapsed time:         1.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               725 / 725, 100%
+Elapsed time:         1.8s
+[2025-06-02 17:48:19] ✅ Bat-backup completo: versões .klwp e backup incremental enviados!
+[2025-06-02 17:49:49] 
+[2025-06-02 17:49:49] ===== 🦇 Bat-backup KLWP iniciado =====
+[2025-06-02 17:49:49] 🟡 KLWP_THEME_BR não mudou localmente. Ignorando (nenhuma nova versão).
+[2025-06-02 17:49:49] 🦇 Subindo .klwp versionados para nuvem (incremental)...
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:         0.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:         1.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:         1.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:         2.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:         3.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:         3.1s
+[2025-06-02 17:49:54] 🦇 Backup incremental dos demais arquivos e pastas...
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.4sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 6 / 6, 100%
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               314 / 314, 100%
+Elapsed time:         1.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               315 / 315, 100%
+Elapsed time:         1.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               725 / 725, 100%
+Elapsed time:         2.2s
+[2025-06-02 17:49:58] ✅ Bat-backup completo: versões .klwp e backup incremental enviados!
+[2025-06-02 18:06:10] 
+[2025-06-02 18:06:10] ===== 🦇 Bat-backup KLWP iniciado =====
+[2025-06-02 18:06:10] 🟡 KLWP_THEME_BR não mudou localmente. Ignorando (nenhuma nova versão).
+[2025-06-02 18:06:10] 🦇 Subindo .klwp versionados para nuvem (incremental)...
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:         1.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:         1.9s
+[2025-06-02 18:06:13] 🦇 Backup incremental dos demais arquivos e pastas...
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         1.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               314 / 314, 100%
+Elapsed time:         1.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               725 / 725, 100%
+Elapsed time:         2.2s
+[2025-06-02 18:06:17] ✅ Bat-backup completo: versões .klwp e backup incremental enviados!
+[2025-06-02 18:06:57] 
+[2025-06-02 18:06:57] ===== 🦇 Bat-backup KLWP iniciado =====
+[2025-06-02 18:06:57] 🟢 KLWP_THEME mudou! Criada nova versão: KLWP_THEME_v1.klwp
+[2025-06-02 18:06:57] 🟡 KLWP_THEME_BR não mudou localmente. Ignorando (nenhuma nova versão).
+[2025-06-02 18:06:57] 🦇 Subindo .klwp versionados para nuvem (incremental)...
+Transferred:   	          0 B / 15.406 MiB, 0%, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         0.5s
+Transferring:
+ *                            KLWP_THEME_v1.klwp:  0% /15.406Mi, 0/s, -Transferred:   	          0 B / 15.406 MiB, 0%, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.0s
+Transferring:
+ *                            KLWP_THEME_v1.klwp:  0% /15.406Mi, 0/s, -Transferred:   	    7.621 MiB / 15.406 MiB, 49%, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.5s
+Transferring:
+ *                            KLWP_THEME_v1.klwp: 49% /15.406Mi, 2.473Mi/s, 3sTransferred:   	       10 MiB / 15.406 MiB, 65%, 5.000 MiB/s, ETA 1s
+Checks:                 1 / 1, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         2.0s
+Transferring:
+ *                            KLWP_THEME_v1.klwp: 64% /15.406Mi, 2.473Mi/s, 2sTransferred:   	       10 MiB / 15.406 MiB, 65%, 5.000 MiB/s, ETA 1s
+Checks:                 1 / 1, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         2.5s
+Transferring:
+ *                            KLWP_THEME_v1.klwp: 64% /15.406Mi, 4.989Mi/s, 1sTransferred:   	       10 MiB / 15.406 MiB, 65%, 5.000 MiB/s, ETA 1s
+Checks:                 1 / 1, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         3.0s
+Transferring:
+ *                            KLWP_THEME_v1.klwp: 64% /15.406Mi, 4.989Mi/s, 1sTransferred:   	   15.406 MiB / 15.406 MiB, 100%, 3.333 MiB/s, ETA 0s
+Checks:                 1 / 1, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         3.5s
+Transferring:
+ *                            KLWP_THEME_v1.klwp:100% /15.406Mi, 5.128Mi/s, 0sTransferred:   	   15.406 MiB / 15.406 MiB, 100%, 3.851 MiB/s, ETA 0s
+Checks:                 1 / 1, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         4.0s
+Transferring:
+ *                            KLWP_THEME_v1.klwp:100% /15.406Mi, 5.128Mi/s, 0sTransferred:   	   15.406 MiB / 15.406 MiB, 100%, 3.851 MiB/s, ETA 0s
+Checks:                 1 / 1, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         4.5s
+Transferring:
+ *                            KLWP_THEME_v1.klwp:100% /15.406Mi, 3.846Mi/s, 0sTransferred:   	   15.406 MiB / 15.406 MiB, 100%, 3.851 MiB/s, ETA 0s
+Checks:                 1 / 1, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         5.0s
+Transferring:
+ *                            KLWP_THEME_v1.klwp:100% /15.406Mi, 3.846Mi/s, 0sTransferred:   	   15.406 MiB / 15.406 MiB, 100%, 3.081 MiB/s, ETA 0s
+Checks:                 1 / 1, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         5.5s
+Transferring:
+ *                            KLWP_THEME_v1.klwp:100% /15.406Mi, 3.077Mi/s, 0sTransferred:   	   15.406 MiB / 15.406 MiB, 100%, 3.081 MiB/s, ETA 0s
+Checks:                 1 / 1, 100%
+Transferred:            1 / 1, 100%
+Elapsed time:         5.6s
+[2025-06-02 18:07:04] 🦇 Backup incremental dos demais arquivos e pastas...
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                53 / 53, 100%
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               315 / 315, 100%
+Elapsed time:         1.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               315 / 315, 100%
+Elapsed time:         2.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               725 / 725, 100%
+Elapsed time:         2.4s
+[2025-06-02 18:07:07] ✅ Bat-backup completo: versões .klwp e backup incremental enviados!
+[2025-06-03 01:59:02] 
+[2025-06-03 01:59:02] ===== 🦇 Bat-backup KLWP iniciado =====
+[2025-06-03 01:59:02] 🟢 KLWP_THEME mudou! Criada nova versão: KLWP_THEME_v2.klwp
+[2025-06-03 01:59:02] 🟡 KLWP_THEME_BR não mudou localmente. Ignorando (nenhuma nova versão).
+[2025-06-03 01:59:02] 🦇 Subindo .klwp versionados para nuvem (incremental)...
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.4sTransferred:   	          0 B / 15.397 MiB, 0%, 0 B/s, ETA -
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         0.9s
+Transferring:
+ *                            KLWP_THEME_v2.klwp:  0% /15.397Mi, 0/s, -Transferred:   	          0 B / 15.397 MiB, 0%, 0 B/s, ETA -
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.4s
+Transferring:
+ *                            KLWP_THEME_v2.klwp:  0% /15.397Mi, 0/s, -Transferred:   	          0 B / 15.397 MiB, 0%, 0 B/s, ETA -
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.9s
+Transferring:
+ *                            KLWP_THEME_v2.klwp:  0% /15.397Mi, 0/s, -Transferred:   	          0 B / 15.397 MiB, 0%, 0 B/s, ETA -
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         2.4s
+Transferring:
+ *                            KLWP_THEME_v2.klwp:  0% /15.397Mi, 0/s, -Transferred:   	    8.402 MiB / 15.397 MiB, 55%, 0 B/s, ETA -
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         2.9s
+Transferring:
+ *                            KLWP_THEME_v2.klwp: 54% /15.397Mi, 2.850Mi/s, 2sTransferred:   	    8.777 MiB / 15.397 MiB, 57%, 2.801 MiB/s, ETA 2s
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         3.4s
+Transferring:
+ *                            KLWP_THEME_v2.klwp: 57% /15.397Mi, 2.850Mi/s, 2sTransferred:   	       10 MiB / 15.397 MiB, 65%, 2.801 MiB/s, ETA 1s
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         3.9s
+Transferring:
+ *                            KLWP_THEME_v2.klwp: 64% /15.397Mi, 3.333Mi/s, 1sTransferred:   	       10 MiB / 15.397 MiB, 65%, 2.500 MiB/s, ETA 2s
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         4.4s
+Transferring:
+ *                            KLWP_THEME_v2.klwp: 64% /15.397Mi, 3.333Mi/s, 1sTransferred:   	       10 MiB / 15.397 MiB, 65%, 2.500 MiB/s, ETA 2s
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         5.0s
+Transferring:
+ *                            KLWP_THEME_v2.klwp: 64% /15.397Mi, 2.500Mi/s, 2sTransferred:   	       10 MiB / 15.397 MiB, 65%, 2.000 MiB/s, ETA 2s
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         5.5s
+Transferring:
+ *                            KLWP_THEME_v2.klwp: 64% /15.397Mi, 2.500Mi/s, 2sTransferred:   	   15.397 MiB / 15.397 MiB, 100%, 2.000 MiB/s, ETA 0s
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         5.9s
+Transferring:
+ *                            KLWP_THEME_v2.klwp:100% /15.397Mi, 3.079Mi/s, 0sTransferred:   	   15.397 MiB / 15.397 MiB, 100%, 2.566 MiB/s, ETA 0s
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         6.4s
+Transferring:
+ *                            KLWP_THEME_v2.klwp:100% /15.397Mi, 3.079Mi/s, 0sTransferred:   	   15.397 MiB / 15.397 MiB, 100%, 2.566 MiB/s, ETA 0s
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         6.9s
+Transferring:
+ *                            KLWP_THEME_v2.klwp:100% /15.397Mi, 2.566Mi/s, 0sTransferred:   	   15.397 MiB / 15.397 MiB, 100%, 2.200 MiB/s, ETA 0s
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         7.4s
+Transferring:
+ *                            KLWP_THEME_v2.klwp:100% /15.397Mi, 2.566Mi/s, 0sTransferred:   	   15.397 MiB / 15.397 MiB, 100%, 2.200 MiB/s, ETA 0s
+Checks:                 2 / 2, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         7.9s
+Transferring:
+ *                            KLWP_THEME_v2.klwp:100% /15.397Mi, 2.200Mi/s, 0sTransferred:   	   15.397 MiB / 15.397 MiB, 100%, 1.925 MiB/s, ETA 0s
+Checks:                 2 / 2, 100%
+Transferred:            1 / 1, 100%
+Elapsed time:         8.2s
+[2025-06-03 01:59:13] 🦇 Backup incremental dos demais arquivos e pastas...
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                53 / 53, 100%
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               315 / 315, 100%
+Elapsed time:         1.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               315 / 315, 100%
+Elapsed time:         2.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               725 / 725, 100%
+Elapsed time:         2.0s
+[2025-06-03 01:59:16] ✅ Bat-backup completo: versões .klwp e backup incremental enviados!
+[2025-06-03 03:49:57] 
+[2025-06-03 03:49:57] ===== 🦇 Bat-backup KLWP iniciado =====
+[2025-06-03 03:49:57] 🟢 KLWP_THEME mudou! Criada nova versão: KLWP_THEME_v3.klwp
+[2025-06-03 03:49:57] 🟡 KLWP_THEME_BR não mudou localmente. Ignorando (nenhuma nova versão).
+[2025-06-03 03:49:57] 🦇 Subindo .klwp versionados para nuvem (incremental)...
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.4sTransferred:   	          0 B / 17.110 MiB, 0%, 0 B/s, ETA -
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.0s
+Transferring:
+ *                            KLWP_THEME_v3.klwp:  0% /17.110Mi, 0/s, -Transferred:   	          0 B / 17.110 MiB, 0%, 0 B/s, ETA -
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         1.4s
+Transferring:
+ *                            KLWP_THEME_v3.klwp:  0% /17.110Mi, 0/s, -Transferred:   	    6.934 MiB / 17.110 MiB, 41%, 3.467 MiB/s, ETA 2s
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         2.0s
+Transferring:
+ *                            KLWP_THEME_v3.klwp: 40% /17.110Mi, 0/s, -Transferred:   	    9.043 MiB / 17.110 MiB, 53%, 3.467 MiB/s, ETA 2s
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         2.4s
+Transferring:
+ *                            KLWP_THEME_v3.klwp: 52% /17.110Mi, 0/s, -Transferred:   	       10 MiB / 17.110 MiB, 58%, 3.467 MiB/s, ETA 2s
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         2.9s
+Transferring:
+ *                            KLWP_THEME_v3.klwp: 58% /17.110Mi, 4.521Mi/s, 1sTransferred:   	       10 MiB / 17.110 MiB, 58%, 3.333 MiB/s, ETA 2s
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         3.4s
+Transferring:
+ *                            KLWP_THEME_v3.klwp: 58% /17.110Mi, 4.521Mi/s, 1sTransferred:   	       10 MiB / 17.110 MiB, 58%, 3.333 MiB/s, ETA 2s
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         3.9s
+Transferring:
+ *                            KLWP_THEME_v3.klwp: 58% /17.110Mi, 3.333Mi/s, 2sTransferred:   	   17.110 MiB / 17.110 MiB, 100%, 2.500 MiB/s, ETA 0s
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         4.4s
+Transferring:
+ *                            KLWP_THEME_v3.klwp:100% /17.110Mi, 3.333Mi/s, 0sTransferred:   	   17.110 MiB / 17.110 MiB, 100%, 2.500 MiB/s, ETA 0s
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         5.0s
+Transferring:
+ *                            KLWP_THEME_v3.klwp:100% /17.110Mi, 4.278Mi/s, 0sTransferred:   	   17.110 MiB / 17.110 MiB, 100%, 3.422 MiB/s, ETA 0s
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         5.4s
+Transferring:
+ *                            KLWP_THEME_v3.klwp:100% /17.110Mi, 4.278Mi/s, 0sTransferred:   	   17.110 MiB / 17.110 MiB, 100%, 3.422 MiB/s, ETA 0s
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         5.9s
+Transferring:
+ *                            KLWP_THEME_v3.klwp:100% /17.110Mi, 3.422Mi/s, 0sTransferred:   	   17.110 MiB / 17.110 MiB, 100%, 2.852 MiB/s, ETA 0s
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         6.4s
+Transferring:
+ *                            KLWP_THEME_v3.klwp:100% /17.110Mi, 3.422Mi/s, 0sTransferred:   	   17.110 MiB / 17.110 MiB, 100%, 2.852 MiB/s, ETA 0s
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         6.9s
+Transferring:
+ *                            KLWP_THEME_v3.klwp:100% /17.110Mi, 2.852Mi/s, 0sTransferred:   	   17.110 MiB / 17.110 MiB, 100%, 2.444 MiB/s, ETA 0s
+Checks:                 3 / 3, 100%
+Transferred:            0 / 1, 0%
+Elapsed time:         7.5s
+Transferring:
+ *                            KLWP_THEME_v3.klwp:100% /17.110Mi, 2.852Mi/s, 0sTransferred:   	   17.110 MiB / 17.110 MiB, 100%, 2.444 MiB/s, ETA 0s
+Checks:                 3 / 3, 100%
+Transferred:            1 / 1, 100%
+Elapsed time:         7.7s
+[2025-06-03 03:50:07] 🦇 Backup incremental dos demais arquivos e pastas...
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 6 / 6, 100%
+Elapsed time:         1.0sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               128 / 128, 100%
+Elapsed time:         1.5sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               315 / 315, 100%
+Elapsed time:         1.9sTransferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:               725 / 725, 100%
+Elapsed time:         2.2s
+[2025-06-03 03:50:11] ✅ Bat-backup completo: versões .klwp e backup incremental enviados!
+[2025-06-03 12:19:06] 
+[2025-06-03 12:19:06] ===== 🦇 Bat-backup KLWP iniciado =====
+[2025-06-03 12:19:06] 🟢 * mudou! Criada nova versão: *_v1.klwp
+[2025-06-03 12:19:06] 🦇 Subindo .klwp versionados para nuvem (incremental)...
+[2025-06-03 12:19:10] 🦇 Backup incremental dos demais arquivos e pastas...
+[2025-06-03 12:19:14] ✅ Bat-backup completo: versões .klwp e backup incremental enviados!
+[2025-06-03 12:22:36] 
+[2025-06-03 12:22:36] ===== 🦇 Bat-backup KLWP iniciado =====
+[2025-06-03 12:22:36] 🟢 KLWP_THEME mudou! Criada nova versão: KLWP_THEME_v1.klwp
+[2025-06-03 12:22:36] 🦇 Subindo .klwp versionados para nuvem (incremental)...
+[2025-06-03 12:22:40] 🦇 Backup incremental dos demais arquivos e pastas...
+[2025-06-03 12:22:43] ✅ Bat-backup completo: versões .klwp e backup incremental enviados!
