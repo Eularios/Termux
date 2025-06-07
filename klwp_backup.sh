@@ -10,7 +10,7 @@ CONFIG_FILE="$HOME/.klwp_backup.conf"
 
 SRC_DIR="${SRC_DIR:-/storage/emulated/0/Kustom/wallpapers}"
 DEST_ONEDRIVE="${DEST_ONEDRIVE:-onedrive:/Termux/klwp}"
-LOGFILE="${LOGFILE:-$HOME/scripts/klwp_backup.log}"
+LOGFILE="${LOGFILE:-$HOME/Scripts/klwp_backup.log}"
 VERSIONS_TO_KEEP="${VERSIONS_TO_KEEP:-3}"
 ARCHIVE_OLDER_DAYS="${ARCHIVE_OLDER_DAYS:-30}"
 LOCKFILE="${LOCKFILE:-$HOME/.klwp_backup.lock}"
