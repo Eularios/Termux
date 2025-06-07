@@ -21,8 +21,6 @@ LOCKFILE="${LOCKFILE:-$HOME/.klwp_backup.lock}"
 log() {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" | tee -a "$LOGFILE"
 }
-
-# Ensure log directory exists
 mkdir -p "$(dirname "$LOGFILE")"
 
 # ──────────── Flags parsing ────────────
@@ -37,9 +35,17 @@ while getopts "nv" opt; do
 done
 shift $((OPTIND-1))
 
+# ──────────── Build rclone options ────────────
 RCLONE_OPTS=()
 $DRY_RUN  && RCLONE_OPTS+=(--dry-run)
 $VERBOSE && RCLONE_OPTS+=(--progress)
+# timeouts & retries to avoid hangs
+RCLONE_OPTS+=(
+    --timeout=1m
+    --contimeout=30s
+    --retries=3
+    --low-level-retries=10
+)
 
 # ──────────── Log rotation ────────────
 if [ -f "$LOGFILE" ] && [ "$(wc -l <"$LOGFILE")" -gt 5000 ]; then
@@ -49,7 +55,7 @@ fi
 
 # ──────────── Concurrency lock ────────────
 exec 200>"$LOCKFILE"
-flock -n 200 || { log "⚠️  Another backup is running—exiting."; exit 1; }
+flock -n 200 || { log "⚠️ Another backup is running—exiting."; exit 1; }
 
 # ──────────── Clean exit on Ctrl+C ────────────
 trap 'log "⚠️ Interrupted, exiting."; exit 1' INT TERM
@@ -113,12 +119,10 @@ archive_old_versions() {
     mapfile -t old_files < <(
         find "$SRC_DIR" -maxdepth 1 -type f -name '*_v*.klwp' -mtime +"$ARCHIVE_OLDER_DAYS"
     )
-
     if [ ${#old_files[@]} -gt 0 ]; then
         local archive_name="$ARCHIVE_DIR/archive-$(date +%Y-%m).zip"
         zip -j "$archive_name" "${old_files[@]}"
         log "🗜️ Archived ${#old_files[@]} files to $(basename "$archive_name")"
-
         if [ "$DRY_RUN" = false ]; then
             rm -f -- "${old_files[@]}"
             log "🗑️ Removed archived files"
@@ -128,7 +132,6 @@ archive_old_versions() {
     fi
 }
 
-# Run versioning & archiving
 backup_klwp_versions
 archive_old_versions
 
@@ -137,6 +140,7 @@ log "🦇 Uploading .klwp versions..."
 rclone copy \
     "$SRC_DIR/" "$DEST_ONEDRIVE/" \
     --include "*_v*.klwp" "${RCLONE_OPTS[@]}" \
+    --stats 30s --stats-one-line \
     --log-file="$LOGFILE" --log-level=INFO
 
 # ──────────── 4) Integrity check ────────────
@@ -155,6 +159,7 @@ rclone sync \
     "$SRC_DIR/" "$DEST_ONEDRIVE/" \
     --exclude "*.klwp" --exclude "*_v*.klwp" \
     "${RCLONE_OPTS[@]}" \
+    --stats 30s --stats-one-line \
     --log-file="$LOGFILE" --log-level=INFO
 
 # ──────────── 6) Post-run notification ────────────
