@@ -16,7 +16,7 @@ ARCHIVE_OLDER_DAYS="${ARCHIVE_OLDER_DAYS:-30}"
 LOCKFILE="${LOCKFILE:-$HOME/.klwp_backup.lock}"
 
 #
-# Logging & helper functions
+# Logging & helper functions.
 #
 mkdir -p "$(dirname "$LOGFILE")"
 log() {
