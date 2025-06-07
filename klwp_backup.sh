@@ -136,15 +136,15 @@ backup_klwp_versions
 archive_old_versions
 
 # ──────────── 3) Upload versioned files ────────────
-log "🦇 Uploading .klwp versions..."
+log "➤ Starting rclone copy of .klwp versions…"
 rclone copy \
     "$SRC_DIR/" "$DEST_ONEDRIVE/" \
     --include "*_v*.klwp" "${RCLONE_OPTS[@]}" \
-    --stats 30s --stats-one-line \
+    --stats 5s --stats-one-line \
     --log-file="$LOGFILE" --log-level=INFO
 
 # ──────────── 4) Integrity check ────────────
-log "🔍 Integrity check of versioned files..."
+log "🔍 Integrity check of versioned files…"
 if ! rclone check \
        "$SRC_DIR" "$DEST_ONEDRIVE" \
        --include "*_v*.klwp" \
@@ -154,12 +154,12 @@ then
 fi
 
 # ──────────── 5) Sync everything else ────────────
-log "🦇 Syncing other files..."
+log "➤ Starting rclone sync of other files…"
 rclone sync \
     "$SRC_DIR/" "$DEST_ONEDRIVE/" \
     --exclude "*.klwp" --exclude "*_v*.klwp" \
     "${RCLONE_OPTS[@]}" \
-    --stats 30s --stats-one-line \
+    --stats 5s --stats-one-line \
     --log-file="$LOGFILE" --log-level=INFO
 
 # ──────────── 6) Post-run notification ────────────
