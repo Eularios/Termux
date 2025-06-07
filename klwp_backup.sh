@@ -75,9 +75,9 @@ backup_klwp_versions() {
 upload_klwp_versions_root() {
     log "🦇 Subindo arquivos versionados .klwp da raiz…"
     if ! rclone copy "$SRC_DIR/" "$DEST_ONEDRIVE/" \
-        --include "*.klwp" \
-        --include "*_v*.klwp" \
-        --exclude "*/**" \
+        --filter "+ *.klwp" \
+        --filter "+ *_v*.klwp" \
+        --filter "- **" \
         --log-file="$LOGFILE" --log-level=INFO; then
         log "❌ Erro no upload das versões .klwp!"
         exit 2
