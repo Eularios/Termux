@@ -1,0 +1,13 @@
+[2025-06-07 18:39:38] ===== 🦇 KLWP Backup started =====
+[2025-06-07 18:39:38] ℹ️ No .klwp files to version
+[2025-06-07 18:39:38] ℹ️ No versions older than 30 days to archive
+[2025-06-07 18:39:38] ➤ Starting rclone copy of .klwp versions…
+2025/06/07 21:39:40 INFO  : There was nothing to transfer
+2025/06/07 21:39:40 INFO  :           0 B / 0 B, -, 0 B/s, ETA -
+[2025-06-07 18:39:40] <<< rclone copy of .klwp versions done
+[2025-06-07 18:39:40] 🔍 Integrity check of versioned files…
+[2025-06-07 18:39:42] ➤ Starting rclone sync of other files…
+2025/06/07 21:39:45 INFO  : There was nothing to transfer
+2025/06/07 21:39:45 INFO  :           0 B / 0 B, -, 0 B/s, ETA -
+[2025-06-07 18:39:45] <<< rclone sync of other files done
+[2025-06-07 18:39:57] ⚠️ Interrupted! Exiting.
