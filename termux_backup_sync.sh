@@ -23,6 +23,7 @@ cp "$logfile" "$LOGCOPY"
 
 echo "🔹 Gerando backup .bashrc, rclone.conf, scripts..."
 tar -czvf "$TARFILE" \
+    --exclude-from="$LOCAL_SCRIPTS/.backupignore" \
     "$HOME/.bashrc" \
     "$HOME/.config/rclone/rclone.conf" \
     "$LOCAL_SCRIPTS" \
