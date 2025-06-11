@@ -3,7 +3,8 @@ set -euo pipefail
 IFS=$'\n\t'
 
 # CONFIGURAÇÃO
-SRC_DIR="/storage/emulated/0/Kustom/wallpapers"
+default_src="/storage/emulated/0/Kustom/wallpapers"
+SRC_DIR="${1:-$default_src}"
 DEST_ONEDRIVE="onedrive:/Termux/klwp"
 LOGFILE="$HOME/scripts/klwp_backup.log"
 VERSIONS_TO_KEEP=5
@@ -12,79 +13,84 @@ log() {
     echo -e "[$(date '+%Y-%m-%d %H:%M:%S')] $*" | tee -a "$LOGFILE"
 }
 
-log ""
-log "===== 🦇 KLWP BACKUP VERSIONADO (local + nuvem) ====="
+log "==== 🦇 KLWP BACKUP ENHANCED (remote versioning + full subfolder sync) ===="
 
-# 1. Versiona local
-mapfile -t masters < <(
-    find "$SRC_DIR" -maxdepth 1 -type f -name '*.klwp' \
-        ! -name '*_v[0-9]*.klwp' | sort
+# Função para obter checksum MD5 local ou remoto
+md5_local() {
+    md5sum "$1" 2>/dev/null | awk '{print $1}' || echo
+}
+md5_remote() {
+    # rclone md5sum retorna: <hash>  <path>
+    rclone md5sum "$1" 2>/dev/null | awk '{print $1}' || echo
+}
+
+# 1. Versionamento remoto para arquivos .klwp e .kwgt na raiz
+log "🔄 Processando versionamento remoto de .klwp e .kwgt na raiz..."
+mapfile -t roots < <(
+    find "$SRC_DIR" -maxdepth 1 -type f \( -iname '*.klwp' -o -iname '*.kwgt' \) | sort
 )
-if [ ${#masters[@]} -eq 0 ]; then
-    log "ℹ️ Nenhum arquivo .klwp para versionar."
-    exit 0
-fi
-
-for filepath in "${masters[@]}"; do
+for filepath in "${roots[@]}"; do
     filename=$(basename "$filepath")
-    base="${filename%.klwp}"
-    dir="$(dirname "$filepath")"
-    mapfile -t versions < <(
-        find "$dir" -maxdepth 1 -type f -name "${base}_v*.klwp" | sort -V
+    ext="${filename##*.}"
+    base="${filename%.*}"
+
+    # Lista versões remotas existentes
+    mapfile -t remotes < <(
+        rclone lsf "$DEST_ONEDRIVE" --files-only --include "${base}_v*.${ext}" | sort -V
     )
-    if [ ${#versions[@]} -gt 0 ]; then
-        last="${versions[-1]}"
-        lastver=$(printf '%s\n' "$last" | sed -E 's/.*_v([0-9]+)\.klwp$/\1/')
+    if [ ${#remotes[@]} -gt 0 ]; then
+        # Última versão remota
+        last_remote="${remotes[-1]}"
+        lastver=$(printf '%s' "$last_remote" | sed -E 's/.*_v([0-9]+)\.'"$ext""$/\1/')
     else
         lastver=0
     fi
-    # Só cria nova versão se mudou de fato
-    if [ "$lastver" -gt 0 ] && cmp -s "$filepath" "$dir/${base}_v${lastver}.klwp"; then
-        log "🟡 $base sem mudanças desde v$lastver; pulando."
-        continue
+
+    # Compare checksums para detectar mudança
+    if [ "$lastver" -gt 0 ]; then
+        # caminho remoto completo
+        remote_path="$DEST_ONEDRIVE/$last_remote"
+        remote_md5=$(md5_remote "$remote_path")
+        local_md5=$(md5_local "$filepath")
+        if [ -n "$remote_md5" ] && [ "$remote_md5" == "$local_md5" ]; then
+            log "🟡 $filename não alterado desde v$lastver; pulando."
+            continue
+        fi
     fi
+
+    # Nova versão: incrementa contador
     newver=$((lastver + 1))
-    newfile="$dir/${base}_v${newver}.klwp"
-    cp -- "$filepath" "$newfile"
-    log "🟢 Nova versão local criada: $(basename "$newfile")"
-    # Limita versões locais
-    mapfile -t allvers < <(
-        find "$dir" -maxdepth 1 -type f -name "${base}_v*.klwp" | sort -V
+    newremote="${base}_v${newver}.${ext}"
+    log "🟢 Criando versão remota: $newremote"
+    # Copia para Onedrive renomeando
+    rclone copyto "$filepath" "$DEST_ONEDRIVE/$newremote" --log-file="$LOGFILE" --log-level=INFO
+
+    # Prune: mantém só VERSIONS_TO_KEEP
+    mapfile -t all_remotes < <(
+        rclone lsf "$DEST_ONEDRIVE" --files-only --include "${base}_v*.${ext}" | sort -V
     )
-    count=${#allvers[@]}
-    if [ "$count" -gt "$VERSIONS_TO_KEEP" ]; then
-        to_delete=$((count - VERSIONS_TO_KEEP))
-        for old in "${allvers[@]:0:to_delete}"; do
-            rm -f -- "$old"
-            log "🗑️ Apagou versão local antiga: $(basename "$old")"
+    count=${#all_remotes[@]}
+    if [ $count -gt $VERSIONS_TO_KEEP ]; then
+        delcount=$((count - VERSIONS_TO_KEEP))
+        for old in "${all_remotes[@]:0:delcount}"; do
+            log "🗑️ Removendo versão antiga na nuvem: $old"
+            rclone delete "$DEST_ONEDRIVE/$old"
         done
     fi
+
 done
 
-# 2. Sobe para nuvem (apenas .klwp e versões, raiz)
-log "☁️ Subindo versões para nuvem (OneDrive)…"
-if ! rclone copy "$SRC_DIR/" "$DEST_ONEDRIVE/" \
-    --filter "+ *.klwp" \
-    --filter "+ *_v*.klwp" \
-    --filter "- **" \
-    --log-file="$LOGFILE" --log-level=INFO; then
-    log "❌ Erro no upload das versões .klwp!"
-    exit 2
-fi
+# 2. Full sync de subpastas (backup integral, sem deleção)
+log "🔄 Full sync de subpastas para nuvem (sem deleções)..."
+mapfile -t subdirs < <(
+    find "$SRC_DIR" -mindepth 1 -maxdepth 1 -type d | sort
+)
+for sub in "${subdirs[@]}"; do
+    name=$(basename "$sub")
+    log "📂 Sincronizando $name..."
+    # copy mantém arquivos novos e alterados, não apaga nada no dest
+    rclone copy "$sub" "$DEST_ONEDRIVE/$name" --create-empty-src-dirs --log-file="$LOGFILE" --log-level=INFO
 
-# 3. Mantém no máximo N versões na nuvem (raiz)
-log "🧹 Limpando versões antigas na nuvem (OneDrive)…"
-mapfile -t bases < <(rclone lsf "$DEST_ONEDRIVE" --files-only --include "*_v*.klwp" | sed -E 's/_v[0-9]+\.klwp$//' | sort | uniq)
-for base in "${bases[@]}"; do
-    mapfile -t remote_vers < <(rclone lsf "$DEST_ONEDRIVE" --files-only --include "${base}_v*.klwp" | sort -V)
-    count=${#remote_vers[@]}
-    if [ "$count" -gt "$VERSIONS_TO_KEEP" ]; then
-        to_delete=$((count - VERSIONS_TO_KEEP))
-        for oldfile in "${remote_vers[@]:0:to_delete}"; do
-            rclone delete "$DEST_ONEDRIVE/$oldfile"
-            log "🗑️ [REMOTE] Apagou versão antiga da nuvem: $oldfile"
-        done
-    fi
 done
 
-log "✅ Backup versionado local + nuvem concluído!"
+log "✅ KLWP remote versioning + full subfolder sync finalizado!"
