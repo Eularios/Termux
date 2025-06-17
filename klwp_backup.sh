@@ -12,22 +12,11 @@ MARKER="$HOME/.klwp_backup.lastrun"
 log(){ echo "[$(date '+%F %T')] $*" | tee -a "$LOG"; }
 
 log ""
-log "========== KLWP BACKUP DEBUG =========="
-log "🟣 Sistema: $(uname -a)"
-log "🟣 Marker path: $MARKER"
-log "🟣 Hora marker: $(ls -l --full-time "$MARKER" 2>/dev/null || echo '[não existe]')"
-log "🟣 Hora atual: $(date '+%F %T')"
-log "🟣 Arquivos na origem ANTES do backup:"
-ls -lh --full-time "$SRC_DIR" | tee -a "$LOG"
+log "========== KLWP BACKUP =========="
+log "🟣 Marker: $(ls -l --full-time "$MARKER" 2>/dev/null || echo '[não existe]')"
 
 # 0. Prepara marcador (se não existir, cria com epoch 0)
 [ -f "$MARKER" ] || { touch -d @0 "$MARKER"; log "🟣 Marker criado com epoch 0!"; }
-
-log "🟣 (DEBUG) Todos arquivos .klwp/.kwgt presentes:"
-find "$SRC_DIR" -maxdepth 1 -type f \( -iname '*.klwp' -o -iname '*.kwgt' \) ! -name '*_v[0-9]*.*' -exec ls -lh --full-time {} \; | tee -a "$LOG"
-
-log "🟣 (DEBUG) Rodando find -newer marker:"
-find "$SRC_DIR" -maxdepth 1 -type f \( -iname '*.klwp' -o -iname '*.kwgt' \) ! -name '*_v[0-9]*.*' -newer "$MARKER" -exec ls -lh --full-time {} \; | tee -a "$LOG"
 
 # 1. Procura masters modificados desde a última execução
 mapfile -t changed < <(
@@ -36,20 +25,15 @@ mapfile -t changed < <(
 )
 
 log "🔵 Arquivos detectados para versionar: (${#changed[@]})"
-for f in "${changed[@]}"; do log "    - $f"; done
+for f in "${changed[@]}"; do log "    - $(basename "$f")"; done
 
 if [ ${#changed[@]} -eq 0 ]; then
   log "ℹ️ Nenhum .klwp/.kwgt mudou desde última vez."
 else
   for fp in "${changed[@]}"; do
-    log "🔹 Iniciando processamento de $fp"
     base=$(basename "$fp")
     name="${base%.*}"
     ext="${base##*.}"
-
-    log "   - Base: $base | Name: $name | Ext: $ext"
-    log "   - Arquivos na origem DURANTE processamento:"
-    ls -1 "$SRC_DIR" | tee -a "$LOG"
 
     # Listar versões remotas atuais
     mapfile -t remote_vers < <(
@@ -66,12 +50,9 @@ else
     new=$((num+1))
     target="${name}_v${new}.${ext}"
 
-    log "🟢 Enviando para nuvem: $fp → $DEST/$target"
+    log "🟢 Enviando para nuvem: $base → $target"
     rclone copyto "$fp" "$DEST/$target" \
       --log-file="$LOG" --log-level INFO
-
-    log "🟢 (Após upload) Arquivos na origem:"
-    ls -1 "$SRC_DIR" | tee -a "$LOG"
 
     # Limita versões na nuvem
     mapfile -t all < <(
@@ -87,22 +68,17 @@ else
   done
 fi
 
-log "🟠 Arquivos na origem DEPOIS do loop de versionamento:"
-ls -1 "$SRC_DIR" | tee -a "$LOG"
-
 # 2. Backup completo de subpastas (sempre integral)
 log "🔄 Backup incremental de subpastas…"
 for sub in "$SRC_DIR"/*/; do
   [ -d "$sub" ] && {
     name=$(basename "$sub")
-    log "🟢 Copiando subpasta: $sub → $DEST/$name"
+    log "🟢 Copiando subpasta: $name"
     rclone copy "$sub" "$DEST/$name" --log-file="$LOG" --log-level INFO
-    log "🟢 (Após copiar subpasta) Arquivos na origem:"
-    ls -1 "$SRC_DIR" | tee -a "$LOG"
   }
 done
 
 # 3. Atualiza marcador para agora
 touch "$MARKER"
-log "✅ Tudo versionado e subpastas copiados. Marker atualizado."
+log "✅ Tudo versionado e subpastas copiadas. Marker atualizado."
 log ""
