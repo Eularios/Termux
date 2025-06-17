@@ -13,7 +13,7 @@ log(){ echo "[$(date '+%F %T')] $*"|tee -a "$LOG"; }
 
 log "================ INÍCIO DO BACKUP ================"
 log "🟠 Arquivos na origem ANTES do backup:"
-ls -lh "$SRC_DIR" | tee -a "$LOG"
+ls -1 "$SRC_DIR" | tee -a "$LOG"
 
 # 0. Prepara marcador (se não existir, cria com epoch 0)
 [ -f "$MARKER" ] || { touch -d @0 "$MARKER"; }
@@ -38,7 +38,7 @@ else
 
     log "   - Base: $base | Name: $name | Ext: $ext"
     log "   - Arquivos na origem DURANTE processamento:"
-    ls -lh "$SRC_DIR" | tee -a "$LOG"
+    ls -1 "$SRC_DIR" | tee -a "$LOG"
 
     # Listar versões remotas atuais
     mapfile -t remote_vers < <(
@@ -60,7 +60,7 @@ else
       --log-file="$LOG" --log-level INFO
 
     log "🟢 (Após upload) Arquivos na origem:"
-    ls -lh "$SRC_DIR" | tee -a "$LOG"
+    ls -1 "$SRC_DIR" | tee -a "$LOG"
 
     # Limita versões na nuvem
     mapfile -t all < <(
@@ -77,7 +77,7 @@ else
 fi
 
 log "🟠 Arquivos na origem DEPOIS do loop de versionamento:"
-ls -lh "$SRC_DIR" | tee -a "$LOG"
+ls -1 "$SRC_DIR" | tee -a "$LOG"
 
 # 2. Backup completo de subpastas (sempre integral)
 log "🔄 Backup incremental de subpastas…"
@@ -87,12 +87,10 @@ for sub in "$SRC_DIR"/*/; do
     log "🟢 Copiando subpasta: $sub → $DEST/$name"
     rclone copy "$sub" "$DEST/$name" --log-file="$LOG" --log-level INFO
     log "🟢 (Após copiar subpasta) Arquivos na origem:"
-    ls -lh "$SRC_DIR" | tee -a "$LOG"
+    ls -1 "$SRC_DIR" | tee -a "$LOG"
   }
 done
 
 # 3. Atualiza marcador para agora
 touch "$MARKER"
 log "✅ Tudo versionado e subpastas copiados. Marker atualizado."
-
-log "================ FIM DO BACKUP ================"
