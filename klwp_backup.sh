@@ -9,13 +9,25 @@ LOG="$HOME/scripts/klwp_backup.log"
 VERSIONS=5
 MARKER="$HOME/.klwp_backup.lastrun"
 
-log(){ echo "[$(date '+%F %T')] $*"|tee -a "$LOG"; }
+log(){ echo "[$(date '+%F %T')] $*" | tee -a "$LOG"; }
 
-log "🟠 Arquivos na origem ANTES do backup:"
-ls -1 "$SRC_DIR" | tee -a "$LOG"
+log ""
+log "========== KLWP BACKUP DEBUG =========="
+log "🟣 Sistema: $(uname -a)"
+log "🟣 Marker path: $MARKER"
+log "🟣 Hora marker: $(ls -l --full-time "$MARKER" 2>/dev/null || echo '[não existe]')"
+log "🟣 Hora atual: $(date '+%F %T')"
+log "🟣 Arquivos na origem ANTES do backup:"
+ls -lh --full-time "$SRC_DIR" | tee -a "$LOG"
 
 # 0. Prepara marcador (se não existir, cria com epoch 0)
-[ -f "$MARKER" ] || { touch -d @0 "$MARKER"; }
+[ -f "$MARKER" ] || { touch -d @0 "$MARKER"; log "🟣 Marker criado com epoch 0!"; }
+
+log "🟣 (DEBUG) Todos arquivos .klwp/.kwgt presentes:"
+find "$SRC_DIR" -maxdepth 1 -type f \( -iname '*.klwp' -o -iname '*.kwgt' \) ! -name '*_v[0-9]*.*' -exec ls -lh --full-time {} \; | tee -a "$LOG"
+
+log "🟣 (DEBUG) Rodando find -newer marker:"
+find "$SRC_DIR" -maxdepth 1 -type f \( -iname '*.klwp' -o -iname '*.kwgt' \) ! -name '*_v[0-9]*.*' -newer "$MARKER" -exec ls -lh --full-time {} \; | tee -a "$LOG"
 
 # 1. Procura masters modificados desde a última execução
 mapfile -t changed < <(
@@ -93,3 +105,4 @@ done
 # 3. Atualiza marcador para agora
 touch "$MARKER"
 log "✅ Tudo versionado e subpastas copiados. Marker atualizado."
+log ""
