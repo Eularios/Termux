@@ -11,7 +11,6 @@ MARKER="$HOME/.klwp_backup.lastrun"
 
 log(){ echo "[$(date '+%F %T')] $*"|tee -a "$LOG"; }
 
-log "================ INÍCIO DO BACKUP ================"
 log "🟠 Arquivos na origem ANTES do backup:"
 ls -1 "$SRC_DIR" | tee -a "$LOG"
 
