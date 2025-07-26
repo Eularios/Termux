@@ -21,7 +21,7 @@ dpkg --get-selections > "$PKGLIST"
 echo "🔹 Fazendo cópia do log para backup..."
 cp "$logfile" "$LOGCOPY"
 
-echo "🔹 Gerando backup .bashrc, rclone.conf, scripts..."
+echo "🔹 Gerando backup (.bashrc, rclone.conf, scripts)..."
 tar -czvf "$TARFILE" \
     --exclude-from="$LOCAL_SCRIPTS/.backupignore" \
     "$HOME/.bashrc" \
@@ -37,13 +37,13 @@ ls -1t "$BACKDIR"/termux_scripts_*.log | tail -n +4 | xargs -r rm -f
 
 echo -e "\e[1;32m✅ Backup salvo em $TARFILE\e[0m"
 
-# === Sincroniza backup para nuvem (apenas envio) ===
-echo "🔹 Sincronizando backups para a nuvem..."
-rclone sync "$BACKDIR" "$ONEDRIVE_BACKUP" | tee -a "$logfile"
+# === Proteção contra wipe (não usar --delete-during, só --copy-links, etc.) ===
+echo "🔹 Sincronizando backups para a nuvem (proteção contra wipe)..."
+rclone copy "$BACKDIR" "$ONEDRIVE_BACKUP" --update --progress | tee -a "$logfile"
 
-# === Sincronização apenas da nuvem para o Termux ===
-echo "🔹 Sincronizando scripts da nuvem para o Termux (one-way sync)..."
-rclone sync "$ONEDRIVE_SCRIPTS" "$LOCAL_SCRIPTS" | tee -a "$logfile"
+# Sincronização apenas de novas/alteradas (não remove da nuvem!)
+echo "🔹 Sincronizando scripts da nuvem para o Termux (one-way sync, sem deletar local)..."
+rclone copy "$ONEDRIVE_SCRIPTS" "$LOCAL_SCRIPTS" --update --progress | tee -a "$logfile"
 
 echo "✅ Backup limpo, rotacionado e sync de scripts concluído!"
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Backup e sync concluídos!" >> "$logfile"
